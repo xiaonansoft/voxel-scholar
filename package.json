@@ -1,0 +1,25 @@
+{
+  "name": "voxel-scholar",
+  "version": "1.0.0",
+  "description": "方块备考 Block Prep — touch-friendly offline voxel quiz for grade-2 Chinese and math.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaonansoft/voxel-scholar.git"
+  },
+  "homepage": "https://github.com/xiaonansoft/voxel-scholar",
+  "bugs": {
+    "url": "https://github.com/xiaonansoft/voxel-scholar/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:extracted": "node scripts/build.mjs --bank extracted",
+    "test": "node --test tests/*.test.mjs",
+    "audit": "node scripts/audit-stems.mjs --bank demo --runtime",
+    "audit:extracted": "node scripts/audit-stems.mjs --bank extracted --runtime",
+    "dev": "node scripts/serve.mjs"
+  }
+}

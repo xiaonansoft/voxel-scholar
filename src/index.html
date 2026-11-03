@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>方块备考 Block Prep</title>
+<meta name="description" content="方块备考（Block Prep，项目 voxel-scholar）：二年级上册语文数学方向的体素答题小游戏，触控友好，可离线打开。成绩只存在本机。">
+<link rel="stylesheet" href="./styles.css">
+</head><body>
+<canvas id="cv"></canvas>
+<div id="hud" class="hide mct">
+ <div id="task"><span id="tasktxt"></span><div id="taskbar"><i></i></div></div>
+ <div id="questHud" class="hide"><b>🗺 探险小任务</b><div id="qlist"></div></div>
+ <div id="qArrow" aria-hidden="true"><div class="arr" id="qArrIcon">➤</div><div class="lab" id="qArrLab"></div></div>
+ <div id="topbtns"><button class="btn sm fsb" id="fsBtn" title="全屏">⛶<span class="fsl"> 全屏</span></button><button class="btn sm" id="muteBtn">🔊</button><button class="btn sm" id="musBtn" title="背景音乐">🎵</button><button class="btn sm" id="craftBtn" title="合成">🛠<span class="fsl"> 合成</span></button><button class="btn sm" id="pauseBtn">⏸ 菜单</button></div>
+ <div id="alt">⬆ 高度 0</div><div id="todHud"><span id="todIcon">☀</span><span id="todLab">白天</span></div><div id="bottom"><div id="hint7"></div><div id="hearts"></div><div id="xpwrap"><div id="xpbar"></div><span id="lvl">0</span></div><div id="hotbar"></div></div>
+</div>
+<div id="touch" class="hide">
+ <div id="joy"><div id="knob"></div></div>
+ <div class="tb" id="tHome" style="left:10px;top:150px;bottom:auto;width:48px;height:48px;font-size:22px">🏠</div>
+ <div class="tb big" id="tMine" style="right:96px;bottom:18px">⛏<small>挖</small></div><div class="tb big" id="tJump" style="right:14px;bottom:18px">⤒<small>跳</small></div>
+ <div class="tb big" id="tBuild" style="right:96px;bottom:100px">🧱<small>放</small></div><div class="tb big" id="tUp" style="right:14px;bottom:100px">⬆<small>垫高</small></div>
+ <div class="tb hide" id="tMode"></div><div class="tb big" id="tCraft" style="right:14px;bottom:182px">🛠<small>合成</small></div>
+</div>
+<div id="xh"></div><div id="ftxs"></div><div id="hurtfx"></div>
+<div id="bossbar" class="hide"><span>🐉 守关巨龙</span><div><i></i></div></div>
+<div id="bossHint" class="hide">守关巨龙在那边 <span class="arr">→</span></div>
+<div id="lockHint" class="hide">🖱 点一下画面开始<br><small>WASD 走 · 空格 跳 · 鼠标看 · 左键 挖 · 右键 放 · Q 垫高 · E 合成 · 1-8/滚轮 选物品 · Esc 暂停<br>不想用键盘？菜单里打开「📱 触屏模式」，只用鼠标点按钮也能玩</small></div>
+<!-- 主菜单 -->
+<div id="mineBar" class="hide"><i></i></div>
+<div id="craftP" class="ov dim hide"><div class="panel" style="max-width:640px"><h2>🛠 合成台</h2><div id="craftInv"></div><div id="craftList"></div><div style="text-align:center"><button class="btn" id="craftClose">关闭（E）</button></div></div></div>
+<div id="tutP" class="ov dim hide"><div class="panel" style="max-width:560px;text-align:center"><div id="tutN" style="font-size:14px;color:#555"></div><div id="tutE" style="font-size:64px"></div><h2 id="tutT"></h2><p id="tutD" style="font-size:20px;line-height:1.6;color:#222"></p><button class="btn" id="tutPrev">◀ 上一步</button><button class="btn green" id="tutNext">下一步 ▶</button><br><button class="btn sm" id="tutSkip">跳过</button></div></div>
+<div id="starCeleb" class="hide"><div class="box"><div class="stars" id="starCelebStars">★</div><div class="msg" id="starCelebMsg">太棒了！</div></div></div>
+<div id="toast"></div>
+<div id="loginP" class="ov splash">
+<button class="btn sm fsb" id="fsBtnL" title="全屏" style="position:absolute;right:8px;top:8px;z-index:2">⛶<span class="fsl"> 全屏</span></button>
+<span class="splash-cloud" style="left:6%;top:8%">☁</span>
+<span class="splash-cloud" style="right:8%;top:14%;animation-delay:1s">☁</span>
+<span class="splash-cloud" style="left:18%;top:22%;font-size:28px;animation-delay:.5s">☁</span>
+<div class="splash-hero">
+ <h1 class="splash-logo">方块备考</h1>
+ <div class="splash-sub">Block Prep · 二年级上册体素答题</div>
+ <div class="mct" style="margin-top:12px;font-size:14px;opacity:.9">选一个角色，开始方块备考！</div>
+</div>
+<div class="mc-panel" id="loginHome">
+ <h2>👋 欢迎回来</h2>
+ <div id="loginRecent"></div>
+ <div class="login-actions">
+  <button class="btn big green" id="loginContinue" style="display:none">▶ 继续冒险</button>
+  <button class="btn big" id="loginChoose">🎒 选择已有角色</button>
+  <button class="btn big" id="loginNew" style="background:linear-gradient(180deg,#81c784,#2e7d32);color:#fff">✨ 新建角色</button>
+ </div>
+ <div class="mct" style="margin-top:14px;font-size:12px;color:#5d4037;text-shadow:none;text-align:center">成绩 · 错题 · 进度 按角色分开保存（本机）</div>
+</div>
+<div class="mc-panel hide" id="loginPick">
+ <h2>🎒 选择角色</h2>
+ <div id="profileList"></div>
+ <div style="margin-top:12px;text-align:center"><button class="btn" id="pickBack">返回</button></div>
+</div>
+<div class="mc-panel hide" id="loginCreate">
+ <h2>✨ 新建角色</h2>
+ <h3>1. 选头像</h3>
+ <div class="avatar-grid" id="avatarGrid"></div>
+ <h3>2. 取昵称（点推荐或自己拼）</h3>
+ <div class="nick-preview" id="nickPreview">小冒险家</div>
+ <div class="chip-grid" id="nameChips"></div>
+ <div style="margin-top:8px;text-align:center">
+  <button class="btn sm" id="nickTabChip">推荐名</button>
+  <button class="btn sm" id="nickTabHan">汉字板</button>
+  <button class="btn sm" id="nickTabAbc">字母板</button>
+  <button class="btn sm" id="nickClear">清空</button>
+ </div>
+ <div class="soft-pad" id="softPad"></div>
+ <h3>3. 可选 PIN（4 位，可跳过）</h3>
+ <div class="pin-preview" id="pinPreview">----</div>
+ <div class="num-pad" id="pinPad"></div>
+ <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:14px">
+  <button class="btn" id="createBack">返回</button>
+  <button class="btn" id="pinSkip">跳过 PIN</button>
+  <button class="btn big green" id="createGo">进入世界 ▶</button>
+ </div>
+</div>
+<div class="mc-panel hide" id="loginPin">
+ <h2>🔐 输入 PIN</h2>
+ <div style="text-align:center;margin-bottom:8px" id="pinWho"></div>
+ <div class="pin-preview" id="pinCheck">----</div>
+ <div class="num-pad" id="pinCheckPad"></div>
+ <p id="pinErr" style="color:#c62828;text-align:center;min-height:24px"></p>
+ <div style="text-align:center"><button class="btn" id="pinBack">返回</button></div>
+</div>
+<div class="mc-panel hide" id="loginMig">
+ <h2>📦 发现旧成绩</h2>
+ <p style="text-align:center;line-height:1.5">本机有以前的成绩/错题。要导入到新角色「小冒险家」吗？</p>
+ <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:12px">
+  <button class="btn big green" id="migYes">导入并继续</button>
+  <button class="btn big" id="migNo">不导入，重新开始</button>
+ </div>
+</div>
+</div>
+<!-- 主菜单 -->
+<div id="menu" class="ov hide"><button class="btn sm fsb" id="fsBtnM" title="全屏" style="position:absolute;right:8px;top:8px;z-index:3">⛶<span class="fsl"> 全屏</span></button><div class="menuwrap v11">
+ <div class="menu-hero">
+  <h1 id="title" class="v13">方块备考</h1>
+  <div><span id="subtitle" class="v13">Block Prep · 触控也能玩</span></div>
+ </div>
+ <div class="menu-welcome" id="menuWelcome">欢迎，冒险家！</div>
+ <div class="userbar" id="userBar">
+  <div class="av" id="userAv">🧑</div>
+  <div class="who"><b id="userName">冒险家</b><span id="userStars">★ 0</span></div>
+  <button class="btn sm" id="mSwitch">切换</button>
+ </div>
+ <div class="world-grid">
+  <button type="button" class="world-card yw" data-quick="yuwen"><span class="ico">📖</span><span class="lab">语文世界</span><span class="tip">阅读 · 词语 · 小诗</span></button>
+  <button type="button" class="world-card sx" data-quick="math"><span class="ico">🔢</span><span class="lab">数学世界</span><span class="tip">乘除 · 竖式 · 方向图 · 模拟卷</span></button>
+  <button type="button" class="world-card py" data-quick="pinyin"><span class="ico">🔤</span><span class="lab">拼音世界</span><span class="tip">声调 · 平翘舌 · 前后鼻</span></button>
+  <button type="button" class="world-card bs" data-quick="bishun"><span class="ico">✍️</span><span class="lab">笔顺世界</span><span class="tip">挖笔画 · 易错字</span></button>
+ </div>
+ <button type="button" class="world-boost" id="mBoost"><span class="ico">⭐</span><span class="lab">拼音 + 笔顺强化</span><span class="tip">12 题短冒险 · 一键开练</span></button>
+ <div class="menu-actions">
+  <button class="btn big" id="mStart">⛏ 自选冒险</button>
+  <button class="btn big" id="mWrong">📕 错题本</button>
+  <button class="btn big" id="mScore">🏆 我的成绩</button>
+  <button class="btn big" id="mMute">🔊 声音：开</button>
+  <button class="btn big" id="mMusic">🎵 音乐：开</button>
+  <button class="btn big" id="mTut">📖 玩法说明</button>
+  <button class="btn big touchSet" id="mTouch" style="grid-column:1/-1">📱 触屏模式：自动</button>
+ </div>
+ <div class="menu-foot">
+  <div class="mct" style="font-size:14px;opacity:.92">每位角色独立保存成绩与错题 · 成绩只留在这台设备里 · 用下载的 HTML 离线打开更稳</div>
+  <div class="mct" style="font-size:13px;opacity:.78">方块备考 · Block Prep · 题干单问 · 探索任务 · 可离线打开</div>
+ </div>
+</div></div>
+
+<!-- 开始冒险设置 -->
+<div id="setup" class="ov dim hide"><div class="panel">
+ <h2>⛏ 选择你的世界</h2>
+ <div><button class="btn" data-sub="yuwen" id="sY">📖 语文世界</button><button class="btn" data-sub="math" id="sM">🔢 数学世界</button><button class="btn" data-sub="pinyin" id="sP">🔤 拼音世界</button><button class="btn" data-sub="bishun" id="sB">✍️ 笔顺世界</button></div>
+ <h3>题目分组 <select id="edSel"><option value="new">分组甲</option><option value="old">分组乙</option></select></h3>
+ <div id="ednote" style="font-size:13px;color:#555"></div>
+ <h3>选择单元（可多选） <button class="btn sm" id="allBtn">全选/全不选</button></h3>
+ <div id="units"></div>
+ <h3>冒险长度：<button class="btn sm lenb" data-n="10">短 10题</button><button class="btn sm lenb" data-n="20">中 20题</button><button class="btn sm lenb" data-n="30">长 30题</button></h3>
+ <div style="font-size:14px;color:#555">答完题目后，守关巨龙会出现！再答对 3 题打败它就通关。</div>
+ <div style="margin-top:10px"><button class="btn green big" id="goBtn">▶ 出发！</button><button class="btn" id="setupBack">返回</button></div>
+</div></div>
+<!-- 错题本 -->
+<div id="wrongP" class="ov dim hide"><div class="panel">
+ <h2>📕 错题本</h2>
+ <div><button class="btn sm wsub" data-sub="yuwen">📖 语文</button><button class="btn sm wsub" data-sub="math">🔢 数学</button><button class="btn sm wsub" data-sub="pinyin">🔤 拼音</button><button class="btn sm wsub" data-sub="bishun">✍️ 笔顺</button>
+ <select id="wEd"><option value="new">分组甲</option><option value="old">分组乙</option></select></div>
+ <div id="wlist" style="margin-top:8px"></div>
+ <div style="margin-top:10px"><button class="btn green" id="wPlay">⚔ 错题挑战（进游戏）</button><button class="btn red" id="wClear">清空</button><button class="btn" id="wBack">返回</button></div>
+</div></div>
+<!-- 成绩 -->
+<div id="scoreP" class="ov dim hide"><div class="panel v10">
+ <h2>🏆 我的成绩</h2>
+ <div class="score-tabs">
+  <button class="btn sm on" data-sc="me" id="scMe">本角色</button>
+  <button class="btn sm" data-sc="lb" id="scLb">家庭排行榜</button>
+ </div>
+ <div id="scoreBody"></div>
+ <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap"><button class="btn" id="sBack">返回</button></div>
+</div></div>
+<!-- 题目卡 -->
+<div id="card" class="ov dim hide"><div class="panel">
+ <div id="ctitle"><canvas id="cicon" width="16" height="16"></canvas><div><div id="ctt"></div><div id="cmeta"></div></div></div>
+ <div id="csvg"></div><div id="cextra" style="text-align:center"></div><div id="cq"></div><div id="cbody"></div><div id="cfb" class="hide"></div>
+ <div style="margin-top:8px;text-align:right"><button class="btn green hide" id="cNext">继续 ▶</button></div>
+</div></div>
+<!-- 暂停 -->
+<div id="pauseP" class="ov dim hide"><div class="panel" style="max-width:420px;text-align:center">
+ <h2>游戏暂停</h2><button class="btn big" id="pResume">继续游戏</button><button class="btn big" id="pCraft">🛠 合成台</button><button class="btn big" id="pTut">📖 玩法说明</button><button class="btn big touchSet" id="pTouch">📱 触屏模式：自动</button><button class="btn big" id="pEnd">结束本局</button><button class="btn big" id="pMenu">返回主菜单</button>
+</div></div>
+<!-- 死亡 -->
+<div id="deathP" class="ov hide" style="background:rgba(160,0,0,.5)"><div class="menuwrap mct">
+ <h1 style="font-size:clamp(40px,8vw,72px);margin:0">你死了！</h1><div style="font-size:20px" id="deathTxt"></div><div style="height:14px"></div>
+ <button class="btn big" id="respawnBtn">重生</button><button class="btn big" id="deathMenu">结束本局</button>
+</div></div>
+<!-- 结束 -->
+<div id="endP" class="ov dim hide"><div class="panel">
+ <h2 id="endTitle" style="text-align:center"></h2><div class="stars" id="endStars"></div>
+ <div class="grid2" id="endStats"></div><div id="endItems" style="margin:8px 0;display:flex;flex-wrap:wrap;gap:4px"></div><div id="endWrong"></div>
+ <div style="margin-top:10px;text-align:center"><button class="btn green" id="eAgain">再玩一次</button><button class="btn" id="eWrong">练这局错题</button><button class="btn" id="eMenu">主菜单</button></div>
+</div></div>
+<!-- voxel-scholar:packs -->
+<script src="../vendor/three/three.r160.min.js"></script>
+<script src="./generated/question-pack.js"></script>
+<script src="./quiz/generators.js"></script>
+<script src="./quiz/pinyin-stroke.js"></script>
+<script src="./quiz/stem-guard.js"></script>
+<script src="./game/main.js"></script>
+<!-- /voxel-scholar:packs -->
+</body></html>

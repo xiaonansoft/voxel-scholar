@@ -1,0 +1,3989 @@
+{
+  "licenseStatus": "NEED_REWRITE",
+  "note": "Extracted practice-style Chinese items from the monolith (XY). Many still name specific lessons or quote lines. All marked NEED_REWRITE. Not a claim of 人教/PEP permission.",
+  "groups": {
+    "u1": [
+      {
+        "t": "mc",
+        "q": "看拼音写词语：hā ma",
+        "ans": "蛤蟆",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "哈吗",
+          "哈蟆",
+          "蛤嫲"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：shī zi",
+        "ans": "狮子",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "湿子",
+          "诗子",
+          "师子"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：kuān dà",
+        "ans": "宽大",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "宽达",
+          "完大",
+          "宽太"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：pí fū",
+        "ans": "皮肤",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "披肤",
+          "皮扶",
+          "皮夫"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：dǎ kāi",
+        "ans": "打开",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "大开",
+          "打升",
+          "打干"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“很”和“狠”，（　）好",
+        "ans": "很",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "狠"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“极”和“级”，年（　）",
+        "ans": "级",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "极"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“娃”和“蛙”，青（　）",
+        "ans": "蛙",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "娃"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“该”和“孩”，应（　）",
+        "ans": "该",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "孩"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "选词填空：小蝌蚪（　）游到荷叶边。",
+        "ans": "欢快地",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "欢快得",
+          "欢快的"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“披着雪白的衣裳”的是（　）",
+        "ans": "大白鹅",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "鲤鱼",
+          "青蛙",
+          "乌龟"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《小蝌蚪找妈妈》中，小蝌蚪先遇到了（　）",
+        "ans": "鲤鱼妈妈",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "螃蟹",
+          "乌龟",
+          "青蛙妈妈"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "小蝌蚪长大后变成了（　）",
+        "ans": "青蛙",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "金鱼",
+          "乌龟",
+          "鲤鱼"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我是什么》中的“我”是（　）",
+        "ans": "水",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "风",
+          "云",
+          "雪"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“我”在天空中飘浮着时叫（　）",
+        "ans": "云",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "冰",
+          "雪",
+          "雨"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "蒲公英妈妈让孩子们（　）去安家",
+        "ans": "乘着风",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "从豆荚里蹦出",
+          "落在水里",
+          "挂在动物身上"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "苍耳妈妈给孩子穿上（　）",
+        "ans": "带刺的铠甲",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "降落伞",
+          "雪白的衣裳",
+          "绿色的花衣"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "豌豆妈妈让孩子们（　）",
+        "ans": "晒在太阳底下，啪的一声蹦出来",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "乘着风飞",
+          "挂在动物皮毛上",
+          "顺着水漂走"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "连词成句，正确的是（　）",
+        "ans": "小蝌蚪在池塘里游来游去。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "游来游去池塘里在小蝌蚪。",
+          "池塘里游来在小蝌蚪游去。",
+          "在池塘里小蝌蚪游来去游。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“植物妈妈有办法”，这些办法告诉我们（　）",
+        "ans": "植物用不同方法传播种子",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "所有植物都一样",
+          "植物会走路",
+          "植物不需要种子"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“迎上去”的反义词是（　）",
+        "ans": "退回来",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "游过去",
+          "追上去",
+          "跑过去"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“雪白的肚皮”中“雪白”的意思是（　）",
+        "ans": "像雪一样白",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "下雪了",
+          "白色的雪",
+          "雪化了"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：měi lì",
+        "ans": "美丽",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "每丽",
+          "美力",
+          "美利"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：gāo xìng",
+        "ans": "高兴",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "羔兴",
+          "高心",
+          "高星"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：céng jīng",
+        "ans": "曾经",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "层今",
+          "层经",
+          "曾今"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：huān lè",
+        "ans": "欢乐",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "欢肋",
+          "环乐",
+          "欢嘞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“大”和“太”是形近字。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“请”的声母是 q。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《小蝌蚪找妈妈》：小蝌蚪的妈妈是（　）",
+        "ans": "青蛙",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "乌龟",
+          "鸭子",
+          "鲤鱼"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我是什么》：可以变成云、雨、冰雹的是（　）",
+        "ans": "水",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "土",
+          "火",
+          "风"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《植物妈妈有办法》：苍耳宝宝靠（　）旅行",
+        "ans": "挂住动物皮毛",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "游泳",
+          "自己走路",
+          "风吹"
+        ]
+      }
+    ],
+    "u2": [
+      {
+        "t": "mc",
+        "q": "一（　）海鸥",
+        "ans": "只",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "座",
+          "片",
+          "条"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）沙滩",
+        "ans": "片",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "只",
+          "艘",
+          "面"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）军舰",
+        "ans": "艘",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "片",
+          "棵",
+          "只"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）帆船",
+        "ans": "面",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "只",
+          "座",
+          "条"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）稻田",
+        "ans": "块",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "位",
+          "座",
+          "只"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）队旗",
+        "ans": "面",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "把",
+          "只",
+          "条"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《树之歌》：“杨树高，（　）壮”",
+        "ans": "榕树",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "柏树",
+          "桦树",
+          "松树"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《树之歌》：“梧桐树叶像（　）”",
+        "ans": "手掌",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "耳朵",
+          "小扇",
+          "手指"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“松柏四季披绿装”说明松柏是（　）",
+        "ans": "四季常绿的",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "长在水里的",
+          "会开花的",
+          "秋天落叶的"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《拍手歌》中“丛林深处虎（　）”",
+        "ans": "长啸",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "歌唱",
+          "游戏",
+          "飞翔"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《拍手歌》：“动物和我们是（　）”",
+        "ans": "朋友",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "敌人",
+          "邻居",
+          "亲人"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“保护动物”是为了（　）",
+        "ans": "和谐共处",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "好玩",
+          "卖钱",
+          "把它们关起来"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《田家四季歌》：“春季里，春风吹，花开（　）蝴蝶飞。”",
+        "ans": "草长",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "麦熟",
+          "稻上场",
+          "雪花飘"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《田家四季歌》中“夏季里，农事忙，（　）麦子收割忙”",
+        "ans": "采了蚕桑又插秧",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "谷像山",
+          "稻上场",
+          "草长蝶飞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《田家四季歌》中秋季的景象是（　）",
+        "ans": "稻上场，谷像山",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "草长蝴蝶飞",
+          "采桑又插秧",
+          "雪花飘"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“辛苦”的意思是（　）",
+        "ans": "身心劳累",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "很有钱",
+          "很聪明",
+          "很开心"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "选词填空：小鸟在树上（　）地唱歌。",
+        "ans": "快乐",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "着急",
+          "痛苦",
+          "生气"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪组词都是表示季节的？",
+        "ans": "春、夏、秋、冬",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东、南、西、北",
+          "日、月、水、火",
+          "红、黄、蓝、绿"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“孔雀”的“孔”字共（　）画",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "6",
+          "3",
+          "5"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“桦树”的“桦”是（　）旁",
+        "ans": "木字",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "提手",
+          "火字",
+          "禾木"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：qīng chu",
+        "ans": "清楚",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "青楚",
+          "清处",
+          "请楚"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：rèn zhēn",
+        "ans": "认真",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "忍真",
+          "认珍",
+          "认针"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“大”一共（　）画",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“小”一共（　）画",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "4",
+          "5",
+          "2"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“天”的第一笔是（　）",
+        "ans": "横",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "撇",
+          "捺",
+          "竖"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "识字：场景歌里“火车”属于（　）",
+        "ans": "交通工具",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "动物",
+          "植物",
+          "食物"
+        ]
+      }
+    ],
+    "u3n": [
+      {
+        "t": "mc",
+        "q": "《彩虹》中，小女孩想提着爸爸的水壶（　）",
+        "ans": "到桥上洒水下雨",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "去打水",
+          "去浇花",
+          "去送给邻居"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《彩虹》中，小女孩想拿着妈妈的镜子（　）",
+        "ans": "照着妈妈梳头",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "送给姐姐",
+          "照自己",
+          "挂在墙上"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《彩虹》中，小女孩想把哥哥的秋千（　）",
+        "ans": "挂在彩虹桥上",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "拆掉",
+          "放在院子里",
+          "送给同学"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《彩虹》表达了小女孩（　）的美好情感",
+        "ans": "关爱家人",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "讨厌彩虹",
+          "想去旅游",
+          "害怕下雨"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《去外婆家》中，“我”觉得去外婆家是一件（　）的事",
+        "ans": "有趣",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "无聊",
+          "难过",
+          "可怕"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“姹紫嫣红”形容（　）",
+        "ans": "花朵颜色多、很美丽",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "人很多",
+          "水很清",
+          "天空很蓝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《数星星的孩子》讲的是（　）小时候的故事",
+        "ans": "张衡",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "曹冲",
+          "李白",
+          "司马光"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "张衡长大后成了（　）",
+        "ans": "天文学家",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "将军",
+          "画家",
+          "诗人"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "满天的星星像无数（　）撒在碧玉盘里",
+        "ans": "珍珠",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "钻石",
+          "雨点",
+          "宝石"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“北斗七星果然是绕着北极星转动的”，“果然”说明（　）",
+        "ans": "和爷爷说的一样",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "奶奶说的",
+          "张衡猜错了",
+          "星星不动"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "张衡数星星时“坐、靠、仰、指、数”写出他（　）",
+        "ans": "非常认真",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "很着急",
+          "在玩耍",
+          "很害怕"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "多音字：“转”在“转动”中读（　）",
+        "ans": "zhuàn",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "zhuǎn"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "多音字：“转”在“转身”中读（　）",
+        "ans": "zhuǎn",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "zhuàn"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“仔细”的反义词是（　）",
+        "ans": "马虎",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "细心",
+          "认真",
+          "小心"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“美丽”的近义词是（　）",
+        "ans": "漂亮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "有趣",
+          "难看",
+          "高大"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“无数”的反义词是（　）",
+        "ans": "少数",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "数不清",
+          "很多",
+          "多数"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "（　）的月亮",
+        "ans": "弯弯",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "热热",
+          "湿湿",
+          "甜甜"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“洒水”的“洒”是（　）旁",
+        "ans": "三点水",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "口字",
+          "提手",
+          "木字"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：gào su",
+        "ans": "告诉",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "高诉",
+          "告术",
+          "告诉了"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：wǎn shang",
+        "ans": "晚上",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "碗上",
+          "晚尚",
+          "完上"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：píng guǒ",
+        "ans": "苹果",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "苹菓",
+          "凭果",
+          "平果"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：péng you",
+        "ans": "朋友",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "棚友",
+          "逢友",
+          "朋有"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“清澈”的“澈”读 qīng。（　）",
+        "ans": "错",
+        "ex": "澈读 chè。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：句子末尾是问话，用问号。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《登鹳雀楼》：“欲穷千里目，更上一层____。”",
+        "ans": "楼",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "梯",
+          "台",
+          "山"
+        ]
+      }
+    ],
+    "u3o": [
+      {
+        "t": "mc",
+        "q": "《曹冲称象》中，曹冲用（　）来称象",
+        "ans": "船和石头",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "绳子",
+          "大秤",
+          "木头"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "曹冲称象时，先在船舷上（　）",
+        "ans": "画一条线",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "写名字",
+          "放一块石头",
+          "钉钉子"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "曹冲称象时把大象换成石头，是因为石头（　）",
+        "ans": "可以分开来称",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "比大象轻",
+          "颜色好看",
+          "不会跑"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《玲玲的画》中，爸爸的话告诉我们（　）",
+        "ans": "只要肯动脑筋，坏事也能变成好事",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "画画要用好颜料",
+          "不要画画",
+          "弄脏了就扔掉"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "玲玲在弄脏的地方画了一只（　）",
+        "ans": "小花狗",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "小兔",
+          "小猫",
+          "小鸟"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《一封信》中，露西第二封信写的是（　）的事",
+        "ans": "开心",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "害怕",
+          "生气",
+          "难过"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《妈妈睡了》中，妈妈睡着的样子是（　）",
+        "ans": "美丽、温柔、好累",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "生气、着急",
+          "好饿、好冷",
+          "开心地跳舞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“议论纷纷”的意思是（　）",
+        "ans": "大家说法不一，说个不停",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "大家都不说话",
+          "只有一个人说",
+          "大家一起唱歌"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“满意”的反义词是（　）",
+        "ans": "失望",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "高兴",
+          "得意",
+          "开心"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“一（　）大象”里填（　）",
+        "ans": "头",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "条",
+          "匹",
+          "只"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：zuò yè",
+        "ans": "作业",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "做业",
+          "作叶",
+          "坐业"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：kāi xīn",
+        "ans": "开心",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "刊心",
+          "揩心",
+          "开星"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“高兴”可以写成“高心”。（　）",
+        "ans": "错",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      }
+    ],
+    "u4": [
+      {
+        "t": "mc",
+        "q": "《登鹳雀楼》：“欲穷千里目，（　）。”",
+        "ans": "更上一层楼",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "疑是银河落九天",
+          "黄河入海流",
+          "白日依山尽"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《望庐山瀑布》的作者是（　）",
+        "ans": "李白",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "杜甫",
+          "王之涣",
+          "柳宗元"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“飞流直下三千尺”的下一句是（　）",
+        "ans": "疑是银河落九天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "遥看瀑布挂前川",
+          "日照香炉生紫烟",
+          "更上一层楼"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“日照香炉生紫烟”中的“香炉”指（　）",
+        "ans": "香炉峰",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厨房",
+          "一座房子",
+          "烧香用的炉子"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“白日依山尽，黄河入海流”出自（　）",
+        "ans": "《登鹳雀楼》",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "《江雪》",
+          "《敕勒歌》",
+          "《望庐山瀑布》"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《黄山奇石》中，“猴子观海”的猴子（　）",
+        "ans": "抱着腿，望着翻滚的云海",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "在跳舞",
+          "在吃桃子",
+          "在睡觉"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "黄山奇石中，像一只雄鸡对着天都峰啼叫的是（　）",
+        "ans": "金鸡叫天都",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "猴子观海",
+          "仙桃石",
+          "仙人指路"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“陡峭”的意思是（　）",
+        "ans": "坡度很大，直上直下的",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "很矮",
+          "很平坦",
+          "很宽阔"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "日月潭在我国（　）",
+        "ans": "台湾",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "云南",
+          "海南",
+          "新疆"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "日月潭北边像圆圆的太阳，叫（　）；南边像弯弯的月亮，叫（　）",
+        "ans": "日潭；月潭",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "月潭；日潭",
+          "北潭；南潭",
+          "明潭；暗潭"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "葡萄沟在我国（　）",
+        "ans": "新疆吐鲁番",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "海南",
+          "西藏",
+          "台湾"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "葡萄沟的葡萄成熟时，有（　）的",
+        "ans": "红的、白的、紫的、暗红的、淡绿的",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "只有紫色的",
+          "只有绿色的",
+          "只有黑色的"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "葡萄干是在（　）里做成的",
+        "ans": "荫房",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "冰箱",
+          "太阳底下",
+          "水里"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“五光十色”形容（　）",
+        "ans": "颜色多，鲜艳好看",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "光线很暗",
+          "十分漂亮的房子",
+          "只有五种颜色"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“葡萄沟真是个好地方！”这句话表达了（　）",
+        "ans": "对葡萄沟的喜爱和赞美",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对葡萄的疑问",
+          "对葡萄沟的讨厌",
+          "想去旅游的遗憾"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：míng shèng gǔ jì",
+        "ans": "名胜古迹",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "明胜古迹",
+          "名胜古记",
+          "名生古记"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“峰”和“蜂”，蜜（　）",
+        "ans": "蜂",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "峰"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“岸”和“炭”，河（　）",
+        "ans": "岸",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "炭"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：shān shuǐ",
+        "ans": "山水",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "珊水",
+          "杉水",
+          "衫水"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：yuè liang",
+        "ans": "月亮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "悦亮",
+          "岳亮",
+          "乐亮"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《登鹳雀楼》：“欲穷千里目，更上一层____。”",
+        "ans": "楼",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "梯",
+          "山",
+          "台"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《望庐山瀑布》作者是（　）",
+        "ans": "李白",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "王之涣",
+          "杜甫",
+          "白居易"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“人”的笔顺是（　）",
+        "ans": "先撇后捺",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "先捺后撇",
+          "先点后横",
+          "先横后竖"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“十”的笔顺是（　）",
+        "ans": "先横后竖",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "先撇后捺",
+          "先竖后横"
+        ]
+      }
+    ],
+    "u5": [
+      {
+        "t": "mc",
+        "q": "《坐井观天》中，青蛙认为天（　）",
+        "ans": "不过井口那么大",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "和海一样大",
+          "无边无际",
+          "很高很大"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "小鸟是从（　）飞来的",
+        "ans": "天上",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "井里",
+          "水里",
+          "地上"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《坐井观天》告诉我们（　）",
+        "ans": "看问题要全面，不能目光短浅",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "不要和小鸟说话",
+          "要多喝水",
+          "井里很安全"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“无边无际”的意思是（　）",
+        "ans": "非常广阔，看不到边",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "很小很小",
+          "很近",
+          "有边有角"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《寒号鸟》中，喜鹊（　）",
+        "ans": "忙着做窝，准备过冬",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "到处玩耍",
+          "整天睡觉",
+          "唱歌跳舞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "寒号鸟最后（　）",
+        "ans": "冻死了",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "飞走了",
+          "做好了窝",
+          "住进了新窝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“得过且过”的意思是（　）",
+        "ans": "只要能过得去就混一天算一天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "过得很好",
+          "勤劳肯干",
+          "认真生活"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《寒号鸟》告诉我们（　）",
+        "ans": "要勤劳，为将来做准备",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "睡觉很重要",
+          "冬天不冷",
+          "不要相信喜鹊"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我要的是葫芦》中，那个人只想要（　）",
+        "ans": "葫芦",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "叶子",
+          "藤",
+          "蚜虫"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "葫芦最后（　）",
+        "ans": "都落了",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "长得很大",
+          "变成了金色",
+          "被摘下来了"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我要的是葫芦》告诉我们（　）",
+        "ans": "事物之间是有联系的",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "不用管蚜虫",
+          "葫芦不好看",
+          "叶子不重要"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "句子练习：“叶子上的虫还用治？”意思是（　）",
+        "ans": "叶子上的虫不用治",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "叶子上的虫要治",
+          "叶子上没有虫",
+          "虫子很可爱"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“盯着”的意思是（　）",
+        "ans": "注意地看着",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "转过身去",
+          "闭上眼睛",
+          "随便看看"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“沿”和“铅”，井（　）",
+        "ans": "沿",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "铅"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“哪”和“娜”，（　）里",
+        "ans": "哪",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "娜"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《坐井观天》：青蛙认为天只有（　）大",
+        "ans": "井口",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "院子",
+          "天空",
+          "池塘"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《寒号鸟》：寒号鸟不听劝告，结果（　）",
+        "ans": "冻死了",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "飞走了",
+          "睡着了",
+          "盖了新窝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我要的是葫芦》：那个人只盯着葫芦，却不管（　）",
+        "ans": "叶子上的蚜虫",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "阳光",
+          "浇水",
+          "开花"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“坐”和“座”用法完全一样。（　）",
+        "ans": "错",
+        "ex": "坐下用“坐”，座位用“座”。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：《登鹳雀楼》是王之涣写的。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“口”的笔顺规则是（　）",
+        "ans": "先外后内再封口",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "先中间后两边",
+          "先上后下"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“三”一共（　）画",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "1",
+          "4",
+          "2"
+        ]
+      }
+    ],
+    "u6": [
+      {
+        "t": "mc",
+        "q": "《八角楼上》中，毛主席在（　）工作",
+        "ans": "井冈山的八角楼",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北京",
+          "南京",
+          "上海"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "毛主席在八角楼上点着（　）写文章",
+        "ans": "清油灯",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "蜡烛",
+          "手电筒",
+          "电灯"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《朱德的扁担》中，战士们藏起朱德的扁担是因为（　）",
+        "ans": "心疼他，不想让他挑粮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "扁担坏了",
+          "想要扁担",
+          "好玩"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "朱德在扁担上写了（　）",
+        "ans": "“朱德的扁担，不准乱拿”",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "“朱德的扁担，送给你”",
+          "自己的生日",
+          "“红军必胜”"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“难忘的泼水节”中，周总理和傣族人民一起（　）",
+        "ans": "过泼水节",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "过春节",
+          "种水稻",
+          "划龙舟"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "泼水节是（　）的传统节日",
+        "ans": "傣族",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "汉族",
+          "蒙古族",
+          "藏族"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "泼水节时，人们互相泼水是表示（　）",
+        "ans": "祝福",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "打架",
+          "生气",
+          "玩耍不小心"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "刘胡兰面对敌人表现得（　）",
+        "ans": "英勇不屈",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "害怕投降",
+          "逃跑",
+          "哭泣"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“和蔼”的意思是（　）",
+        "ans": "态度温和，容易接近",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "很忙",
+          "很凶",
+          "很高"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“敬爱的周总理”中“敬爱”表达了（　）",
+        "ans": "尊敬和爱戴",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "讨厌",
+          "好奇",
+          "害怕"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“扁”和“编”，（　）担",
+        "ans": "扁",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "编"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“泼”和“拨”，（　）水",
+        "ans": "泼",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "拨"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：huā duǒ",
+        "ans": "花朵",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "花垛",
+          "花舵",
+          "华朵"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：lǎo shī",
+        "ans": "老师",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "老狮",
+          "佬师",
+          "涝师"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“飞流直下三千尺”描写瀑布。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《黄山奇石》写的是黄山的（　）",
+        "ans": "奇石",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "瀑布",
+          "草原",
+          "大海"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《日月潭》在（　）",
+        "ans": "台湾",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "云南",
+          "北京",
+          "海南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《葡萄沟》在（　）",
+        "ans": "新疆",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东北",
+          "西藏",
+          "内蒙古"
+        ]
+      }
+    ],
+    "u7": [
+      {
+        "t": "mc",
+        "q": "《江雪》的作者是（　）",
+        "ans": "柳宗元",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "王之涣",
+          "杜甫",
+          "李白"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“千山鸟飞绝，（　）。”",
+        "ans": "万径人踪灭",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "孤舟蓑笠翁",
+          "更上一层楼",
+          "独钓寒江雪"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“孤舟蓑笠翁，独钓（　）。”",
+        "ans": "寒江雪",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "万径雪",
+          "千山雪",
+          "江中鱼"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《敕勒歌》：“天苍苍，野茫茫，（　）。”",
+        "ans": "风吹草低见牛羊",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "敕勒川",
+          "笼盖四野",
+          "阴山下"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“风吹草低见牛羊”中“见”读（　）",
+        "ans": "xiàn",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "jiàn"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雾在哪里》中的雾是个（　）的孩子",
+        "ans": "淘气",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "安静",
+          "害怕",
+          "懒惰"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "雾把大海藏起来后，（　）都看不见了",
+        "ans": "船、天空、太阳",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "小草",
+          "云、星星",
+          "花园"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雪孩子》中，雪孩子是（　）堆的",
+        "ans": "小白兔和妈妈",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "小猴",
+          "小鹿",
+          "小熊"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "雪孩子为了救小白兔，最后（　）",
+        "ans": "化成了水，变成白云",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "睡着了",
+          "被火烧了",
+          "跑走了"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雪孩子》告诉我们（　）",
+        "ans": "要舍己为人、关心朋友",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "雪不能玩",
+          "火很好玩",
+          "冬天很冷"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“淘气”的近义词是（　）",
+        "ans": "调皮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "懂事",
+          "听话",
+          "安静"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“暖和”的反义词是（　）",
+        "ans": "寒冷",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "凉快",
+          "炎热",
+          "温暖"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：xuě rén",
+        "ans": "雪人",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "学人",
+          "雪认",
+          "雪仁"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：hǎi biān",
+        "ans": "海边",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "海变",
+          "每边",
+          "海边儿"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《敕勒歌》：“天苍苍，野茫茫，风吹草低见____。”",
+        "ans": "牛羊",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "牛马",
+          "鹿羊",
+          "马羊"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雾在哪里》是一篇（　）",
+        "ans": "童话",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "议论文",
+          "说明文",
+          "真人之作"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雪孩子》：雪孩子最后变成了（　）",
+        "ans": "水汽/云",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "冰块",
+          "木头",
+          "石头"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“木”的第三笔是（　）",
+        "ans": "撇",
+        "ex": "笔顺：横、竖、撇、捺。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "捺",
+          "竖",
+          "横"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“火”一共（　）画",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "2",
+          "3"
+        ]
+      }
+    ],
+    "u8n": [
+      {
+        "t": "mc",
+        "q": "《称赞》中，小獾做的是（　）",
+        "ans": "小板凳",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "小桌子",
+          "小椅子",
+          "小木马"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "刺猬称赞小獾：“你真（　），小板凳做得一个比一个好！”",
+        "ans": "能干",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "聪明",
+          "可爱",
+          "漂亮"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "小獾称赞刺猬的（　）香极了",
+        "ans": "苹果",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "花",
+          "小板凳",
+          "面包"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《称赞》告诉我们（　）",
+        "ans": "真诚的称赞能给人信心和力量",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "只能称赞自己",
+          "称赞没有用",
+          "不要称赞别人"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《纸船和风筝》中，松鼠和小熊用（　）传递友谊",
+        "ans": "纸船和风筝",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "花和果子",
+          "书信和电话",
+          "歌声"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《纸船和风筝》中，漂到小熊家门口的纸船里放着一个（　）",
+        "ans": "松果",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "糖果",
+          "苹果",
+          "花朵"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "松鼠和小熊吵架后，又通过（　）和好了",
+        "ans": "纸船和风筝",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "老师帮忙",
+          "打电话",
+          "送礼物"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“幸福”的近义词是（　）",
+        "ans": "快乐",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "痛苦",
+          "辛苦",
+          "难过"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“难过”的反义词是（　）",
+        "ans": "高兴",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "难受",
+          "伤心",
+          "痛苦"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "（　）的风筝",
+        "ans": "漂亮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "高高地",
+          "慢慢",
+          "飞快地"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“扎”和“礼”，（　）风筝",
+        "ans": "扎",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "礼"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“漂”和“飘”，（　）流",
+        "ans": "漂",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "飘"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“称赞”的近义词是（　）",
+        "ans": "夸奖",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "取笑",
+          "责备",
+          "批评"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "把“小明认真写字”改成“谁干什么”：主体是（　）",
+        "ans": "小明",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "认真",
+          "写字",
+          "字"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：tóng xué",
+        "ans": "同学",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "瞳学",
+          "桐学",
+          "童学"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：chūn tiān",
+        "ans": "春天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "椿天",
+          "村天",
+          "春添"
+        ]
+      }
+    ],
+    "u8o": [
+      {
+        "t": "mc",
+        "q": "《狐假虎威》中，狐狸借着（　）的威风吓跑了百兽",
+        "ans": "老虎",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "大象",
+          "狮子",
+          "熊"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“狐假虎威”中的“假”是（　）的意思",
+        "ans": "借",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "放假",
+          "不真",
+          "假装"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“狐假虎威”比喻（　）",
+        "ans": "依仗别人的势力欺压人",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "老虎很可怕",
+          "动物很团结",
+          "狐狸很聪明"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《风娃娃》中，风娃娃想（　）",
+        "ans": "帮人们做好事",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "去睡觉",
+          "吹倒房子",
+          "去吃东西"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《风娃娃》告诉我们（　）",
+        "ans": "做事要考虑是否真的对别人有用",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "风筝不好玩",
+          "不要帮助别人",
+          "风越大越好"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“神气活现”的意思是（　）",
+        "ans": "自以为了不起，很得意的样子",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "很安静",
+          "很伤心",
+          "很害怕"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "把“小明认真写字”改成“谁干什么”：主体是（　）",
+        "ans": "小明",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "写字",
+          "认真",
+          "字"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "量词：一（　）古诗",
+        "ans": "首",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "只",
+          "条",
+          "个"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：写信时称呼后面用逗号或冒号都可以随便乱写。（　）",
+        "ans": "错",
+        "ex": "书信称呼后一般用冒号。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“鸟语花香”常用来描写春天。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      }
+    ],
+    "g": [
+      {
+        "t": "mc",
+        "q": "标点：你喜欢下雪吗（　）",
+        "ans": "？",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "。",
+          "，",
+          "！"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "标点：秋天的景色多美啊（　）",
+        "ans": "！",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "？",
+          "。",
+          "，"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "标点：我和妈妈去公园（　）",
+        "ans": "。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "！",
+          "？"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "标点：小明问：“你去哪里（　）”",
+        "ans": "？",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "。",
+          "！"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“读书”中“读”的部首是（　）",
+        "ans": "讠",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "言",
+          "十",
+          "卖"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“妈妈”的“妈”是（　）旁",
+        "ans": "女字",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "马",
+          "人字",
+          "口字"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“树叶”的“树”共（　）画",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "10",
+          "7",
+          "8"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“飞”的笔画数是（　）",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "4",
+          "2"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个词语书写正确？",
+        "ans": "美丽",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "每丽",
+          "美里",
+          "美利"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个词语书写正确？",
+        "ans": "游戏",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "游细",
+          "由戏",
+          "油戏"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个词语书写正确？",
+        "ans": "清楚",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "请楚",
+          "清处",
+          "青楚"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个词语书写正确？",
+        "ans": "认真",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "忍真",
+          "认针",
+          "认珍"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“高”的反义词是（　）",
+        "ans": "矮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "长",
+          "大",
+          "胖"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“快”的反义词是（　）",
+        "ans": "慢",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "急",
+          "跑",
+          "忙"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“轻”的反义词是（　）",
+        "ans": "重",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "低",
+          "小",
+          "少"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“热闹”的反义词是（　）",
+        "ans": "冷清",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "寒冷",
+          "热情",
+          "高兴"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“开心”的近义词是（　）",
+        "ans": "高兴",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "担心",
+          "小心",
+          "伤心"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“立刻”的近义词是（　）",
+        "ans": "马上",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "以后",
+          "从前",
+          "慢慢"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“仔细”的近义词是（　）",
+        "ans": "认真",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "快速",
+          "粗心",
+          "马虎"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“特别”的近义词是（　）",
+        "ans": "非常",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "一般",
+          "普通",
+          "平常"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "（　）的天空",
+        "ans": "蓝蓝",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "香香",
+          "甜甜",
+          "绿绿"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "（　）地奔跑",
+        "ans": "飞快",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "静静的",
+          "圆圆",
+          "飞快的"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）小河",
+        "ans": "条",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "座",
+          "棵",
+          "只"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）高山",
+        "ans": "座",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "条",
+          "只",
+          "片"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）白云",
+        "ans": "朵",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "条",
+          "只",
+          "座"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）小鸟",
+        "ans": "只",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "条",
+          "座",
+          "朵"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）大树",
+        "ans": "棵",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "朵",
+          "条",
+          "只"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一（　）书",
+        "ans": "本",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "座",
+          "条",
+          "只"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "选词填空：小明做作业（　）认真。",
+        "ans": "非常",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "非凡",
+          "非法"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "选词填空：雨（　）停了。",
+        "ans": "终于",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "最终的",
+          "终点"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "选词填空：天上（　）飘着白云。",
+        "ans": "一朵朵",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "一只只",
+          "一条条",
+          "一座座"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "连词成句：正确的是（　）",
+        "ans": "我们一起去公园玩。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "公园我们去玩一起。",
+          "去公园玩我们一起。",
+          "一起我们玩去公园。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "连词成句：正确的是（　）",
+        "ans": "小鸟在树上快乐地唱歌。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "树上在小鸟唱歌快乐地。",
+          "在树上唱歌小鸟快乐地。",
+          "快乐地小鸟唱歌在树上。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "连词成句：正确的是（　）",
+        "ans": "秋天的田野一片金黄。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "金黄一片的田野秋天。",
+          "田野一片秋天的金黄。",
+          "一片金黄田野的秋天。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "哪句话用了比喻？",
+        "ans": "弯弯的月亮像小船。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "月亮升起来了。",
+          "月亮很亮。",
+          "我看到了月亮。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "哪句是问句？",
+        "ans": "你吃过葡萄吗？",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "葡萄是紫色的。",
+          "我爱吃葡萄。",
+          "葡萄真甜啊！"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“小花猫在睡觉。”改成更具体的句子是（　）",
+        "ans": "小花猫在暖暖的阳光下睡觉。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "小花猫睡觉。",
+          "猫在睡。",
+          "小花猫在。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“我们把教室打扫干净了。”改成“被”字句是（　）",
+        "ans": "教室被我们打扫干净了。",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "被我们教室打扫了。",
+          "教室把我们打扫干净了。",
+          "我们被教室打扫干净了。"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "阅读：“小松鼠采了很多松果，分给了小兔和小鸟。大家都说它真大方。”小松鼠是一只（　）的松鼠",
+        "ans": "大方",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "懒惰",
+          "小气",
+          "胆小"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "阅读：“秋天到了，枫叶红了，菊花开了，大雁往南飞。”这段话写的是（　）季",
+        "ans": "秋",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "夏",
+          "冬",
+          "春"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "阅读：“小猴子种了一棵桃树，每天浇水、除草。第二年，桃树结满了大桃子。”小猴子是一只（　）的猴子",
+        "ans": "勤劳",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "懒惰",
+          "粗心",
+          "调皮"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "阅读：“丁丁上学路上看到一个钱包，他把钱包交给了警察叔叔。”丁丁是一个（　）的孩子",
+        "ans": "拾金不昧",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "爱发脾气",
+          "马马虎虎",
+          "胆小怕事"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "阅读：“下雨了，小蚂蚁躲在大蘑菇下面，小青蛙在荷叶上跳来跳去。”小蚂蚁躲雨的地方是（　）",
+        "ans": "大蘑菇下面",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "荷叶上",
+          "屋檐下",
+          "树洞里"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“一年之计在于春”的意思是（　）",
+        "ans": "一年的计划要在春天打算好",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "一年只有春天",
+          "春天最热",
+          "春天要睡觉"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“少壮不努力，（　）。”",
+        "ans": "老大徒伤悲",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "更上一层楼",
+          "黄河入海流",
+          "万径人踪灭"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“三人行，必有我（　）。”",
+        "ans": "师",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "人",
+          "家",
+          "友"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：péng you",
+        "ans": "朋友",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "明友",
+          "朋右",
+          "朋有"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：hǎo xiàng",
+        "ans": "好像",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "好相",
+          "好象",
+          "号像"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：shēng huó",
+        "ans": "生活",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "生话",
+          "生括",
+          "声活"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“请”和“清”，（　）水",
+        "ans": "清",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "请"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“园”和“圆”，花（　）",
+        "ans": "园",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "圆"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比再组词：“做”和“作”，（　）业",
+        "ans": "作",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "做"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“大家七嘴八舌地说起来。”中“七嘴八舌”形容（　）",
+        "ans": "人多嘴杂，你一言我一语",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "有七张嘴",
+          "说话很少",
+          "很安静"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“鸟语花香”描写的是（　）的景色",
+        "ans": "春天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "沙漠",
+          "夜晚",
+          "冬天"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：měi lì",
+        "ans": "美丽",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "美力",
+          "美利",
+          "每丽"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：gāo xìng",
+        "ans": "高兴",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "高心",
+          "羔兴",
+          "高星"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：céng jīng",
+        "ans": "曾经",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "层经",
+          "曾今",
+          "层今"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：huān lè",
+        "ans": "欢乐",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "环乐",
+          "欢嘞",
+          "欢肋"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：qīng chu",
+        "ans": "清楚",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "清处",
+          "青楚",
+          "请楚"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：rèn zhēn",
+        "ans": "认真",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "认珍",
+          "忍真",
+          "认针"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：píng guǒ",
+        "ans": "苹果",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "凭果",
+          "平果",
+          "苹菓"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：péng you",
+        "ans": "朋友",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "逢友",
+          "棚友",
+          "朋有"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：zuò yè",
+        "ans": "作业",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "坐业",
+          "做业",
+          "作叶"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：kāi xīn",
+        "ans": "开心",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "开星",
+          "刊心",
+          "揩心"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：shān shuǐ",
+        "ans": "山水",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "衫水",
+          "珊水",
+          "杉水"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：yuè liang",
+        "ans": "月亮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "悦亮",
+          "乐亮",
+          "岳亮"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：huā duǒ",
+        "ans": "花朵",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "花舵",
+          "花垛",
+          "华朵"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：lǎo shī",
+        "ans": "老师",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "老狮",
+          "佬师",
+          "涝师"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：tóng xué",
+        "ans": "同学",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "瞳学",
+          "桐学",
+          "童学"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：chūn tiān",
+        "ans": "春天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "椿天",
+          "村天",
+          "春添"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：xià tiān",
+        "ans": "夏天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厦天",
+          "匣天",
+          "狭天"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：qiū tiān",
+        "ans": "秋天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "蚯天",
+          "鳅天",
+          "丘天"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：dōng tiān",
+        "ans": "冬天",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "咚天",
+          "氡天",
+          "东天"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：ěr duo",
+        "ans": "耳朵",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "耳剁",
+          "饵朵",
+          "尔朵"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“大”和“太”是形近字。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“请”的声母是 q。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“清澈”的“澈”读 qīng。（　）",
+        "ans": "错",
+        "ex": "澈读 chè。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：句子末尾是问话，用问号。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“高兴”可以写成“高心”。（　）",
+        "ans": "错",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“坐”和“座”用法完全一样。（　）",
+        "ans": "错",
+        "ex": "坐下用“坐”，座位用“座”。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：《登鹳雀楼》是王之涣写的。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“飞流直下三千尺”描写瀑布。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：写信时称呼后面用逗号或冒号都可以随便乱写。（　）",
+        "ans": "错",
+        "ex": "书信称呼后一般用冒号。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“鸟语花香”常用来描写春天。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“大”一共（　）画",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“小”一共（　）画",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“天”的第一笔是（　）",
+        "ans": "横",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "捺",
+          "撇",
+          "竖"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“人”的笔顺是（　）",
+        "ans": "先撇后捺",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "先横后竖",
+          "先捺后撇",
+          "先点后横"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“十”的笔顺是（　）",
+        "ans": "先横后竖",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "先竖后横",
+          "先撇后捺"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“口”的笔顺规则是（　）",
+        "ans": "先外后内再封口",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "先中间后两边",
+          "先上后下"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“三”一共（　）画",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2",
+          "1",
+          "4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“木”的第三笔是（　）",
+        "ans": "撇",
+        "ex": "笔顺：横、竖、撇、捺。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "竖",
+          "横",
+          "捺"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“火”一共（　）画",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2",
+          "5",
+          "3"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：写“国”字要先进去后关门。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《小蝌蚪找妈妈》：小蝌蚪的妈妈是（　）",
+        "ans": "青蛙",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "鲤鱼",
+          "鸭子",
+          "乌龟"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我是什么》：可以变成云、雨、冰雹的是（　）",
+        "ans": "水",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "土",
+          "火",
+          "风"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《植物妈妈有办法》：苍耳宝宝靠（　）旅行",
+        "ans": "挂住动物皮毛",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "游泳",
+          "风吹",
+          "自己走路"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "识字：场景歌里“火车”属于（　）",
+        "ans": "交通工具",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "植物",
+          "食物",
+          "动物"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《登鹳雀楼》：“欲穷千里目，更上一层____。”",
+        "ans": "楼",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "梯",
+          "山",
+          "台"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《望庐山瀑布》作者是（　）",
+        "ans": "李白",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "王之涣",
+          "杜甫",
+          "白居易"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《坐井观天》：青蛙认为天只有（　）大",
+        "ans": "井口",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "池塘",
+          "院子",
+          "天空"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《寒号鸟》：寒号鸟不听劝告，结果（　）",
+        "ans": "冻死了",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "飞走了",
+          "盖了新窝",
+          "睡着了"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《我要的是葫芦》：那个人只盯着葫芦，却不管（　）",
+        "ans": "叶子上的蚜虫",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "浇水",
+          "阳光",
+          "开花"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《敕勒歌》：“天苍苍，野茫茫，风吹草低见____。”",
+        "ans": "牛羊",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "牛马",
+          "鹿羊",
+          "马羊"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比组词：“圆”和“园”，公（　）",
+        "ans": "园",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "圆"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比一比组词：“坐”和“座”，请（　）",
+        "ans": "坐",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "座"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面书写正确的是（　）",
+        "ans": "仔细",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "仔昔",
+          "子细",
+          "仔织"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面书写正确的是（　）",
+        "ans": "漂亮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "票亮",
+          "飘亮",
+          "漂量"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“开心”的近义词是（　）",
+        "ans": "高兴",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "害怕",
+          "难过",
+          "生气"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“寒冷”的反义词是（　）",
+        "ans": "温暖",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "凉快",
+          "潮湿",
+          "炎热"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "标点：今天天气真好（　）",
+        "ans": "！",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "，",
+          "、",
+          "？"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "标点：你吃饭了吗（　）",
+        "ans": "？",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "。",
+          "，",
+          "！"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“读”字的部首是（　）",
+        "ans": "讠",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "口",
+          "卖",
+          "言"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“河”一共（　）画",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "7",
+          "9",
+          "6"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：zì jǐ",
+        "ans": "自己",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "字己",
+          "自已",
+          "紫己"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：shí hou",
+        "ans": "时候",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "时后",
+          "石候",
+          "实候"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：zhī dào",
+        "ans": "知道",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "知到",
+          "支道",
+          "只道"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：yīn wèi",
+        "ans": "因为",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "因谓",
+          "阴为",
+          "音为"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：háizi",
+        "ans": "孩子",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "亥子",
+          "孩字",
+          "还子"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：xuě huā",
+        "ans": "雪花",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "血花",
+          "薛花",
+          "靴花"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：fēng zhēng",
+        "ans": "风筝",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "风正",
+          "丰筝",
+          "风争"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看拼音写词语：kuài lè",
+        "ans": "快乐",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "快肋",
+          "侩乐",
+          "块乐"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：“晴”和“睛”声旁相同。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：写字时“先横后竖”是笔顺规则之一。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“竹”一共（　）画",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "8",
+          "7",
+          "5"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“羊”一共（　）画",
+        "ans": "6",
+        "ex": "点、撇、横、横、竖，共 6 画。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "8",
+          "5",
+          "7"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《黄山奇石》写的是黄山的（　）",
+        "ans": "奇石",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "大海",
+          "瀑布",
+          "草原"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《日月潭》在（　）",
+        "ans": "台湾",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北京",
+          "海南",
+          "云南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《葡萄沟》在（　）",
+        "ans": "新疆",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "西藏",
+          "东北",
+          "内蒙古"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雾在哪里》是一篇（　）",
+        "ans": "童话",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "议论文",
+          "说明文",
+          "真人之作"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "《雪孩子》：雪孩子最后变成了（　）",
+        "ans": "水汽/云",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "冰块",
+          "木头",
+          "石头"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“称赞”的近义词是（　）",
+        "ans": "夸奖",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "取笑",
+          "责备",
+          "批评"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "把“小明认真写字”改成“谁干什么”：主体是（　）",
+        "ans": "小明",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "写字",
+          "认真",
+          "字"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "量词：一（　）古诗",
+        "ans": "首",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "个",
+          "只",
+          "条"
+        ]
+      }
+    ]
+  }
+}

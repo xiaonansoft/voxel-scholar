@@ -1,0 +1,3566 @@
+{
+  "licenseStatus": "NEED_REWRITE",
+  "note": "Extracted static math items from the monolith (XM). The prototype called some of these original exam-style practice. They are still tagged NEED_REWRITE so the public demo does not silently treat the whole extracted bank as cleared. Procedural generators (mulGen, clock, etc.) live in src/quiz/generators.js and are project code.",
+  "groups": {
+    "mul16": [
+      {
+        "t": "num",
+        "q": "口算：3×4＝？",
+        "ans": "12",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：5×6＝？",
+        "ans": "30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：6×6＝？",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：4×5＝？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：2×6＝？",
+        "ans": "12",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：6×4＝？",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：5×5＝？",
+        "ans": "25",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：3×6＝？",
+        "ans": "18",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：4×4＋4＝？",
+        "ans": "20",
+        "ex": "4×4＝16，16＋4＝20。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：5×3－6＝？",
+        "ans": "9",
+        "ex": "5×3＝15，15－6＝9。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：6×2＋8＝？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：3×5＋5＝？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：6×5－10＝？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：2×4＋2＝？",
+        "ans": "10",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "“四五二十”可以写成哪个乘法算式？",
+        "ans": "4×5＝20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5×5＝25",
+          "4＋5＝9",
+          "4×2＝8"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "3＋3＋3＋3 改写成乘法算式是（　）",
+        "ans": "3×4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "4×4",
+          "3×3",
+          "3＋4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "5＋5＋5＋5＋5＋5 改写成乘法算式是（　）",
+        "ans": "5×6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "6×6",
+          "5×5",
+          "5＋6"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "计算 6×3 时，用到的乘法口诀是（　）",
+        "ans": "三六十八",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "二六十二",
+          "六六三十六",
+          "三三得九"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "4×5＝20 读作（　）",
+        "ans": "4乘5等于20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5乘4等于9",
+          "4除5等于20",
+          "4加5等于20"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "在 6×4＝24 中，6 和 4 叫作（　）",
+        "ans": "乘数",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "加数",
+          "积",
+          "和"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "在 3×5＝15 中，15 叫作（　）",
+        "ans": "积",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "乘数",
+          "和",
+          "差"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：4×5 ○ 4＋5，○里应填（　）",
+        "ans": "＞",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＜"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：2×2 ○ 2＋2，○里应填（　）",
+        "ans": "＝",
+        "ex": "2×2＝4，2＋2＝4。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：1×6 ○ 1＋6，○里应填（　）",
+        "ans": "＜",
+        "ex": "1×6＝6，1＋6＝7。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＞",
+          "＝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：两个数相乘，积一定比两个数相加的和大。",
+        "ans": "×（错）",
+        "ex": "例如 1×3＝3，1＋3＝4，积反而小。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "√（对）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：4个5相加，可以写成 4×5 或 5×4。",
+        "ans": "√（对）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "×（错）"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "2个6相加是多少？",
+        "ans": "12",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "5个4相加是多少？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "6个3相加是多少？",
+        "ans": "18",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "每辆小车坐4人，5辆小车一共坐多少人？",
+        "ans": "20",
+        "ex": "4×5＝20（人）",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一盒彩笔有6支，3盒有多少支？",
+        "ans": "18",
+        "ex": "6×3＝18（支）",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一张桌子配4把椅子，6张桌子配多少把椅子？",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "每排种5棵树，种了5排，一共种了多少棵树？",
+        "ans": "25",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一只小兔有2只耳朵，6只小兔有几只耳朵？",
+        "ans": "12",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一个星期有7天，但小明只在周一到周五读书，每天读4页，一个星期读几页？",
+        "ans": "20",
+        "ex": "周一到周五是5天，4×5＝20（页）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一盘有3个苹果，4盘再加上桌上的2个，一共几个？",
+        "ans": "14",
+        "ex": "3×4＝12，12＋2＝14（个）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一根绳子剪成4段，每段长5米（无剩余），这根绳子原来长几米？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "“三个三相加”和“三加三”的结果相差多少？",
+        "ans": "3",
+        "ex": "3×3＝9，3＋3＝6，9－6＝3。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "0",
+          "9",
+          "6"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "乘法口诀“五六（　）”，括号里是（　）",
+        "ans": "三十",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "二十五",
+          "三十六",
+          "二十"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：4×6＝（　）",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "20",
+          "16",
+          "28"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：5×3＝（　）",
+        "ans": "15",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "25",
+          "10",
+          "20"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：6×5＝（　）",
+        "ans": "30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "25",
+          "36",
+          "35"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：3×6＝（　）",
+        "ans": "18",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "24",
+          "21",
+          "15"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：6×4＝（　）",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "16",
+          "28",
+          "20"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：5×5＝（　）",
+        "ans": "25",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "20",
+          "30",
+          "15"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "每盒 4 支笔，3 盒一共几支？",
+        "ans": "12",
+        "ex": "4×3＝12",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "每排 6 人，5 排一共几人？",
+        "ans": "30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：6×4＝4×6。（　）",
+        "ans": "对",
+        "ex": "乘法可以交换因数位置，积不变。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：5×0＝5。（　）",
+        "ans": "错",
+        "ex": "任何数乘 0 都得 0。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：2×6 比 3×4 大。（　）",
+        "ans": "错",
+        "ex": "2×6＝12，3×4＝12，一样大。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "看图想：3 行，每行 4 个○，一共（　）个",
+        "ans": "12",
+        "ex": "3×4＝12",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "7",
+          "9",
+          "16"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“二六十二”表示（　）",
+        "ans": "2×6＝12 或 6×2＝12",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2×2＝6",
+          "2＋6＝12",
+          "26＝12"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：2×8＝（　）",
+        "ans": "16",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "18",
+          "10",
+          "14"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：6×6＝（　）",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "30",
+          "42",
+          "12"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "4 个 5 相加是多少？",
+        "ans": "20",
+        "ex": "4×5＝20",
+        "licenseStatus": "NEED_REWRITE"
+      }
+    ],
+    "mul79": [
+      {
+        "t": "num",
+        "q": "口算：7×8＝？",
+        "ans": "56",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：9×6＝？",
+        "ans": "54",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：8×8＝？",
+        "ans": "64",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：7×7＝？",
+        "ans": "49",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：9×9＝？",
+        "ans": "81",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：8×6＝？",
+        "ans": "48",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：7×9＝？",
+        "ans": "63",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：8×9＝？",
+        "ans": "72",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：7×4＝？",
+        "ans": "28",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：8×3＝？",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：7×5＋7＝？",
+        "ans": "42",
+        "ex": "7×5＝35，35＋7＝42，也就是 6 个 7。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：9×3＋9＝？",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：8×7－8＝？",
+        "ans": "48",
+        "ex": "8×7＝56，56－8＝48，也就是 6 个 8。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：9×9－9＝？",
+        "ans": "72",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "“七八五十六”对应的算式是（　）",
+        "ans": "7×8＝56",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "8×8＝64",
+          "7×6＝42",
+          "7＋8＝15"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪句乘法口诀是正确的？",
+        "ans": "六九五十四",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "六八四十六",
+          "七八五十四",
+          "八九七十六"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪句乘法口诀是错误的？",
+        "ans": "七九六十八",
+        "ex": "7×9＝63，应是“七九六十三”。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "八八六十四",
+          "三七二十一",
+          "四九三十六"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "用口诀“三八二十四”可以计算（　）",
+        "ans": "3×8 和 8×3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "8×8",
+          "24÷6",
+          "3＋8"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：8×7 ○ 7×8，○里填（　）",
+        "ans": "＝",
+        "ex": "交换乘数位置，积不变。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：9×5 ○ 8×6",
+        "ans": "＜",
+        "ex": "9×5＝45，8×6＝48。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：7×7 ○ 6×8",
+        "ans": "＞",
+        "ex": "49＞48。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＜"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "一个星期有7天，4个星期有几天？",
+        "ans": "28",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一辆三轮车有3个轮子，9辆三轮车一共有多少个轮子？",
+        "ans": "27",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "每盒装8个鸡蛋，6盒装多少个？",
+        "ans": "48",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一只蜘蛛有8条腿，5只蜘蛛有几条腿？",
+        "ans": "40",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "小华每天跳绳9分钟，一个星期（7天）一共跳几分钟？",
+        "ans": "63",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一本故事书 9 元，买 4 本要多少元？",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一个数是 7，另一个数是它的 8 倍那样“8 个 7”，这个数是多少？",
+        "ans": "56",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一排有 8 个座位，有 7 排，坐了 50 人，还空几个座位？",
+        "ans": "6",
+        "ex": "8×7＝56，56－50＝6（个）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "妈妈买了 9 袋牛奶，每袋 2 元，付了 20 元，应找回几元？",
+        "ans": "2",
+        "ex": "9×2＝18，20－18＝2（元）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "9个8相加的和是多少？",
+        "ans": "72",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "7个6相加的和是多少？",
+        "ans": "42",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "8×4 表示（　）",
+        "ans": "4个8相加（或8个4相加）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "8加4",
+          "8个8相加",
+          "8减4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "最大的一位数乘最大的一位数，积是（　）",
+        "ans": "81",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "72",
+          "99",
+          "18"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "积是 36 的乘法口诀有（　）",
+        "ans": "四九三十六、六六三十六",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "三九二十七、四九三十六",
+          "六六三十六",
+          "四九三十六"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "7×(　)＝56，括号里填几？",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "(　)×9＝45，括号里填几？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "8×(　)＝48，括号里填几？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "(　)×7＝63，括号里填几？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "口算：7×8＝（　）",
+        "ans": "56",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "63",
+          "48",
+          "54"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：9×6＝（　）",
+        "ans": "54",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "56",
+          "63",
+          "45"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：8×8＝（　）",
+        "ans": "64",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "48",
+          "56",
+          "72"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：9×9＝（　）",
+        "ans": "81",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "89",
+          "18",
+          "72"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：7×6＝（　）",
+        "ans": "42",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "49",
+          "48",
+          "36"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：8×5＝（　）",
+        "ans": "40",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "30",
+          "35",
+          "45"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "每箱 8 瓶，买 7 箱共几瓶？",
+        "ans": "56",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "9 个小朋友，每人 5 颗糖，一共几颗？",
+        "ans": "45",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：七八五十六。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：9×5＝9×4＋9。（　）",
+        "ans": "对",
+        "ex": "9×5＝45，9×4＋9＝36＋9＝45。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比大小：7×8 ○ 9×6",
+        "ans": ">",
+        "ex": "7×8＝56，9×6＝54，56＞54。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "<",
+          "="
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：7×7＝（　）",
+        "ans": "49",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "14",
+          "56",
+          "42"
+        ]
+      }
+    ],
+    "div16": [
+      {
+        "t": "num",
+        "q": "口算：18÷3＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：24÷4＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：30÷5＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：36÷6＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：12÷2＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：20÷4＝？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：15÷5＝？",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：16÷4＝？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：25÷5＝？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：6÷6＝？",
+        "ans": "1",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：0÷5＝？",
+        "ans": "0",
+        "ex": "0除以任何不是0的数都得0。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：24÷6＝？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "在 12÷3＝4 中，12 叫作（　）",
+        "ans": "被除数",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "除数",
+          "商",
+          "积"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "在 18÷6＝3 中，3 叫作（　）",
+        "ans": "商",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "积",
+          "被除数",
+          "除数"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "在 20÷5＝4 中，5 叫作（　）",
+        "ans": "除数",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "乘数",
+          "被除数",
+          "商"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "计算 24÷4 用到的口诀是（　）",
+        "ans": "四六二十四",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "三八二十四",
+          "四四十六",
+          "二四得八"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "12÷2＝6 读作（　）",
+        "ans": "12除以2等于6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "12除2等于6",
+          "12减2等于6",
+          "2除以12等于6"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "把 12 个桃平均分给 3 只猴子，算式是（　）",
+        "ans": "12÷3＝4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "3×4＝12",
+          "12－3＝9",
+          "12÷4＝3"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“15 里面有几个 5？”列式是（　）",
+        "ans": "15÷5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "15＋5",
+          "5×15",
+          "15－5"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：把 10 个苹果分成 2 堆，每堆一定是 5 个。",
+        "ans": "×（错）",
+        "ex": "只有“平均分”才每堆一样多，不平均分可以是 3 个和 7 个。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "√（对）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：除法算式中，被除数一定比商大。",
+        "ans": "×（错）",
+        "ex": "例如 6÷1＝6，被除数和商相等；0÷5＝0 也相等。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "√（对）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：每份分得同样多，叫作平均分。",
+        "ans": "√（对）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "×（错）"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "把 18 个气球平均分给 6 个小朋友，每人分几个？",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "有 20 块饼干，每人分 4 块，可以分给几人？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "30 名同学去划船，每条船坐 5 人，需要几条船？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一根 24 米长的绳子，平均剪成 4 段，每段几米？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "有 16 朵花，每 2 朵插一瓶，能插几瓶？",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "二（1）班有 36 本新书，平均放在 6 个书架上，每个书架放几本？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "小红把 12 张贴纸平均分给 3 个好朋友，每人几张？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "6 只小狗（每只4条腿）的腿平均分成4份，每份几条？",
+        "ans": "6",
+        "ex": "4×6＝24，24÷4＝6。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "(　)÷5＝4，括号里填几？",
+        "ans": "20",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "18÷(　)＝6，括号里填几？",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "(　)÷6＝5，括号里填几？",
+        "ans": "30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "把 15 个苹果每 5 个装一袋，可以装几袋？想：（　）",
+        "ans": "三五十五",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "三三得九",
+          "二五一十",
+          "五五二十五"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：24÷4 ○ 24÷6",
+        "ans": "＞",
+        "ex": "24÷4＝6，24÷6＝4。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：18÷3 ○ 2×3",
+        "ans": "＝",
+        "ex": "都是 6。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：24÷6＝（　）",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "6",
+          "5",
+          "3"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：18÷3＝（　）",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "9",
+          "3"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：30÷5＝（　）",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "7",
+          "25"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：16÷4＝（　）",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2",
+          "8",
+          "12"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "20 个苹果平均分给 5 人，每人几个？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "12 朵花，每 3 朵插一瓶，可插几瓶？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：15÷3＝5。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：除数可以是 0。（　）",
+        "ans": "错",
+        "ex": "0 不能做除数。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "在 18÷6＝3 中，18 是（　）",
+        "ans": "被除数",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "商",
+          "积",
+          "除数"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式想：28÷7＝（　）",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "21",
+          "3",
+          "5"
+        ]
+      }
+    ],
+    "div79": [
+      {
+        "t": "num",
+        "q": "口算：56÷7＝？",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：72÷9＝？",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：64÷8＝？",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：63÷7＝？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：81÷9＝？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：48÷8＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：42÷7＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：54÷9＝？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：40÷8＝？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：35÷7＝？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：45÷9＝？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：32÷8＝？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：49÷7＋3＝？",
+        "ans": "10",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：36÷9×8＝？",
+        "ans": "32",
+        "ex": "36÷9＝4，4×8＝32。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：72÷8－5＝？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "计算 56÷8 和 7×8 都可以用口诀（　）",
+        "ans": "七八五十六",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "六八四十八",
+          "七七四十九",
+          "八八六十四"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一个乘法算式 7×9＝63，可以写出的除法算式是（　）",
+        "ans": "63÷7＝9 和 63÷9＝7",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "9÷7＝63",
+          "63－9＝54",
+          "63÷3＝21"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "有 56 个苹果，每 8 个装一盒，能装几盒？",
+        "ans": "7",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一本书 63 页，小明每天看 9 页，几天能看完？",
+        "ans": "7",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "72 名同学排队做操，平均站成 8 行，每行几人？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一个星期有 7 天，42 天是几个星期？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "49 个萝卜平均分给 7 只兔子，每只兔子分几个？",
+        "ans": "7",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "有 45 个月饼，每盒装 9 个，能装满几盒？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "买 1 个文具盒要 8 元，40 元可以买几个？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "同学们做了 36 朵红花和 18 朵黄花，平均分给 6 个小组，每组几朵？",
+        "ans": "9",
+        "ex": "36＋18＝54，54÷6＝9（朵）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "小明有 27 颗弹珠，平均放进 3 个盒子后，又往每个盒子各放 1 颗，每个盒子现在有几颗？",
+        "ans": "10",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "(　)÷8＝7，括号里填几？",
+        "ans": "56",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "81÷(　)＝9，括号里填几？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "(　)÷7＝6，括号里填几？",
+        "ans": "42",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：56÷7 ○ 64÷8",
+        "ans": "＝",
+        "ex": "都等于 8。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较大小：63÷9 ○ 48÷6",
+        "ans": "＜",
+        "ex": "7＜8。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "被除数是 54，除数是 9，商是（　）",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "7",
+          "5",
+          "45"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "除数是 7，商是 8，被除数是（　）",
+        "ans": "56",
+        "ex": "被除数＝商×除数＝8×7＝56。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "15",
+          "49",
+          "1"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：56÷7＝（　）",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "7",
+          "6",
+          "9"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：63÷9＝（　）",
+        "ans": "7",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "6",
+          "8",
+          "9"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：48÷8＝（　）",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "7",
+          "8"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：72÷8＝（　）",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "54 人排成 9 行，每行几人？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "35 颗糖，每人 7 颗，能分给几人？",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：0÷8＝0。（　）",
+        "ans": "对",
+        "ex": "0 除以任何非 0 数都得 0。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：8÷8＝0。（　）",
+        "ans": "错",
+        "ex": "8÷8＝1。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      }
+    ],
+    "len": [
+      {
+        "t": "mc",
+        "q": "一支铅笔长约 18（　）",
+        "ans": "厘米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "分米",
+          "米",
+          "千米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一张床长约 2（　）",
+        "ans": "米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厘米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "小明身高 125（　）",
+        "ans": "厘米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一根跳绳长约 2（　）",
+        "ans": "米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厘米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一棵大树高约 9（　）",
+        "ans": "米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厘米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "数学课本厚约 1（　）",
+        "ans": "厘米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一层教学楼高约 3（　）",
+        "ans": "米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厘米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "食指的宽度大约是 1（　）",
+        "ans": "厘米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "1 米＝（　）厘米",
+        "ans": "100",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "10",
+          "1000",
+          "60"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较：1 米 ○ 90 厘米",
+        "ans": "＞",
+        "ex": "1 米＝100 厘米＞90 厘米。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较：100 厘米 ○ 1 米",
+        "ans": "＝",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较：3 米 ○ 30 厘米",
+        "ans": "＞",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＜",
+          "＝"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较：60 厘米 ○ 6 米",
+        "ans": "＜",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＞"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "50 厘米＋50 厘米＝几米？",
+        "ans": "1",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "1 米－40 厘米＝几厘米？",
+        "ans": "60",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "2 米＝几厘米？",
+        "ans": "200",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "15 厘米＋25 厘米＝几厘米？",
+        "ans": "40",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "80 厘米－35 厘米＝几厘米？",
+        "ans": "45",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "3 米＋5 米＝几米？",
+        "ans": "8",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "量比较短的物体，通常用（　）作单位。",
+        "ans": "厘米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "量操场跑道的长度，用（　）作单位比较合适。",
+        "ans": "米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "厘米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "用尺子量物体时，物体的一端要对准尺子的（　）",
+        "ans": "0 刻度",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "尺子的最左边",
+          "任意刻度",
+          "1 刻度"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一把尺子从刻度 2 量到刻度 9，物体长（　）厘米",
+        "ans": "7",
+        "ex": "9－2＝7。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2",
+          "11",
+          "9"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：一根绳子长 1 米，对折后每段长 50 厘米。",
+        "ans": "√（对）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "×（错）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：小明的手掌长约 1 米。",
+        "ans": "×（错）",
+        "ex": "手掌长约十几厘米。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "√（对）"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "一根木条长 90 厘米，锯掉 35 厘米，还剩几厘米？",
+        "ans": "55",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "小红跳远跳了 1 米，小芳比她少跳 12 厘米，小芳跳了几厘米？",
+        "ans": "88",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一块砖长 25 厘米，4 块砖首尾相接排一排，长几米？",
+        "ans": "1",
+        "ex": "25×4＝100 厘米＝1 米。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一张长方形纸，长 8 厘米，宽 5 厘米，四条边一共长几厘米？",
+        "ans": "26",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一个正方形每条边长 6 厘米，四条边一共长几厘米？",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "下面长度最长的是（　）",
+        "ans": "2 米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "150 厘米",
+          "99 厘米",
+          "1 米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "线段有（　）个端点",
+        "ans": "2",
+        "ex": "线段是直直的，有两个端点，可以量出长度。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "1",
+          "0",
+          "无数"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一支铅笔长约（　）",
+        "ans": "18 厘米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "18 米",
+          "1 厘米",
+          "2 米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "教室长约（　）",
+        "ans": "8 米",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "80 米",
+          "8 厘米",
+          "1 厘米"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "1 米＝（　）厘米",
+        "ans": "100",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "50",
+          "10",
+          "1000"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比大小：90 厘米 ○ 1 米",
+        "ans": "<",
+        "ex": "1 米＝100 厘米。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          ">",
+          "="
+        ]
+      },
+      {
+        "t": "num",
+        "q": "2 米＝（　）厘米",
+        "ans": "200",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "300 厘米＝（　）米",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：1 米比 90 厘米长。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：课桌高大约 70 米。（　）",
+        "ans": "错",
+        "ex": "约 70 厘米。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "绳子长 15 米，用去 6 米，还剩几米？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "从刻度 3 量到 11，长几厘米？",
+        "ans": "8",
+        "ex": "11－3＝8",
+        "licenseStatus": "NEED_REWRITE"
+      }
+    ],
+    "cls": [
+      {
+        "t": "mc",
+        "q": "按“颜色”分类时，红苹果和下面哪个分在一起？",
+        "ans": "红气球",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "黄香蕉",
+          "蓝铅笔",
+          "绿苹果"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "按“形状”分类时，圆形的钟和下面哪个分在一起？",
+        "ans": "圆形的盘子",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "正方形的手帕",
+          "长方形的书",
+          "三角形的旗子"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个不是水果？",
+        "ans": "白菜",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "苹果",
+          "香蕉",
+          "葡萄"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个不是文具？",
+        "ans": "足球",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "尺子",
+          "铅笔",
+          "橡皮"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "下面哪个不是动物？",
+        "ans": "月亮",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "熊猫",
+          "小猫",
+          "金鱼"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "同一堆东西，用不同的标准分类，分类的结果（　）",
+        "ans": "可能不同",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "一定相同",
+          "一定只有两类",
+          "不能分类"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "分类时，最重要的是先确定（　）",
+        "ans": "分类标准",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "谁来分",
+          "分多少次",
+          "东西的价格"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：同一种物品只能用一种方法分类。",
+        "ans": "×（错）",
+        "ex": "可以按颜色、形状、用途等不同标准分类。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "√（对）"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "统计：□○□△□○□，其中□有几个？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "统计：△○○△○△○，其中○有几个？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "统计：★☆★★☆★，其中★比☆多几个？",
+        "ans": "2",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "二（2）班喜欢苹果的有 12 人，喜欢香蕉的有 8 人，喜欢苹果的比喜欢香蕉的多几人？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "用“正”字记录，“正正一”表示几？",
+        "ans": "11",
+        "ex": "一个“正”字是 5 画表示 5，正正＝10，再加 1＝11。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "用“正”字记录，“正丅”表示几？",
+        "ans": "7",
+        "ex": "“正”是5，“丅”是2画，5＋2＝7。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "记录数据时，常用画“正”字的方法，一个“正”字表示（　）",
+        "ans": "5",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "1",
+          "10",
+          "4"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "哪一个和其他不是一类？苹果、香蕉、小狗、梨",
+        "ans": "小狗",
+        "ex": "小狗是动物，其余是水果。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "香蕉",
+          "梨",
+          "苹果"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "按单双数分：2、5、8、9，单数有（　）个",
+        "ans": "2",
+        "ex": "5、9。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：汽车和轮船都是交通工具。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "○△○△○ 中，○有（　）个",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "2",
+          "4"
+        ]
+      }
+    ],
+    "dir": [
+      {
+        "t": "mc",
+        "q": "早上，面向太阳，你的前面是（　）",
+        "ans": "东",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "西",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "早上面向太阳，你的后面是（　）",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "东",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "东和（　）相对",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东北",
+          "北",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "南和（　）相对",
+        "ans": "北",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "西",
+          "东",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "面向北，你的右手边是（　）",
+        "ans": "东",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "西",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "面向北，你的左手边是（　）",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "面向南，你的左手边是（　）",
+        "ans": "东",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "西"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "地图通常按“上（　）下南，左西右东”绘制",
+        "ans": "北",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "西",
+          "南",
+          "东"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "太阳从（　）方升起",
+        "ans": "东",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "西",
+          "南",
+          "北"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "傍晚，太阳在（　）方落下",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "南",
+          "东",
+          "北"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "小明家在学校的东面，那么学校在小明家的（　）面",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "南",
+          "东"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "图书馆在操场的北面，操场在图书馆的（　）面",
+        "ans": "南",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "西",
+          "北",
+          "东"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：面向东时，背对的是西。",
+        "ans": "√（对）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "×（错）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "“北”的相对方向是（　）",
+        "ans": "南",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东",
+          "北",
+          "西"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "早上太阳从（　）升起",
+        "ans": "东",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "南",
+          "西",
+          "北"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "面向南站立，右手边是（　）",
+        "ans": "西",
+        "ex": "面向南：右西左东。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "东",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "面向东，背后是（　）",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东",
+          "南",
+          "北"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：南和北是相对方向。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：面向北时，右手边是西。（　）",
+        "ans": "错",
+        "ex": "面向北：右东左西。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "示意图：操场在北，教室在南。从操场到教室朝（　）走",
+        "ans": "南",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东",
+          "北",
+          "西"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "傍晚太阳从（　）落下",
+        "ans": "西",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "北",
+          "南",
+          "东"
+        ]
+      }
+    ],
+    "addsub": [
+      {
+        "t": "num",
+        "q": "口算：35＋27＝？",
+        "ans": "62",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：64－28＝？",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：48＋36＝？",
+        "ans": "84",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：90－45＝？",
+        "ans": "45",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：56＋18＝？",
+        "ans": "74",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：73－39＝？",
+        "ans": "34",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：25＋38＋17＝？",
+        "ans": "80",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：100－36－24＝？",
+        "ans": "40",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：82－47＋15＝？",
+        "ans": "50",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "口算：(52－18)＋29＝？",
+        "ans": "63",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "二（1）班有男生 26 人，女生 24 人，一共多少人？",
+        "ans": "50",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一本书 70 页，看了 32 页，还剩几页？",
+        "ans": "38",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "车上原有 45 人，下去 18 人，又上来 9 人，现在车上有几人？",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "小明有 38 张卡片，小东比小明多 15 张，小东有几张？",
+        "ans": "53",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一根绳子用去 28 米，还剩 47 米，原来长几米？",
+        "ans": "75",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "估算：39＋42 的结果最接近（　）",
+        "ans": "80",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "70",
+          "60",
+          "90"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较：45＋28 ○ 70",
+        "ans": "＞",
+        "ex": "45＋28＝73。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＜"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比较：91－37 ○ 55",
+        "ans": "＜",
+        "ex": "91－37＝54。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "＝",
+          "＞"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "笔算加法时，个位满十要向（　）进1",
+        "ans": "十位",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "个位",
+          "百位"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "笔算减法时，个位不够减要从（　）退1",
+        "ans": "十位",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "百位",
+          "个位"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：36＋28＝（　）",
+        "ans": "64",
+        "ex": "个位满十进 1。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "74",
+          "62",
+          "54"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算选结果：52－19＝（　）",
+        "ans": "33",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "43",
+          "31",
+          "29"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：47＋35＝（　）",
+        "ans": "82",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "81",
+          "72",
+          "92"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：80－26＝（　）",
+        "ans": "54",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "56",
+          "64",
+          "44"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "小红有 45 张贴纸，又得到 17 张，一共几张？",
+        "ans": "62",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "树上 38 只鸟，飞走 15 只，还剩几只？",
+        "ans": "23",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：25＋37＝62。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：70－28＝52。（　）",
+        "ans": "错",
+        "ex": "70－28＝42。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "对"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "书店有 60 本故事书，卖出 24 本，又运来 18 本，现在有几本？",
+        "ans": "54",
+        "ex": "60－24＋18＝54",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "口算：19＋18＝（　）",
+        "ans": "37",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "36",
+          "39",
+          "27"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：63－27＝（　）",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "34",
+          "46",
+          "26"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "一本书 48 页，小明看了 19 页，还剩几页？",
+        "ans": "29",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      }
+    ],
+    "angle": [
+      {
+        "t": "mc",
+        "q": "一个角有（　）个顶点、（　）条边",
+        "ans": "1 个顶点，2 条边",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "3 个顶点，3 条边",
+          "2 个顶点，1 条边",
+          "1 个顶点，1 条边"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "角的大小和（　）有关",
+        "ans": "两条边叉开的大小",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "画得粗细",
+          "纸的大小",
+          "边的长短"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比直角小的角是（　）",
+        "ans": "锐角",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "平角",
+          "钝角"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比直角大的角是（　）",
+        "ans": "钝角",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "锐角"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "三角尺上有（　）个直角",
+        "ans": "1",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "0",
+          "3",
+          "2"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一个长方形有（　）个直角",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "3",
+          "2",
+          "1"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "钟面上 3 时整，时针和分针成（　）",
+        "ans": "直角",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "锐角",
+          "钝角"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：把角的两条边画长一些，角就变大了。",
+        "ans": "×（错）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "√（对）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：所有的直角都一样大。",
+        "ans": "√（对）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "×（错）"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "一个正方形有几个直角？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "数一数：一个三角形有几个角？",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "一个角有（　）个顶点",
+        "ans": "1",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "3",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "比直角小的角叫（　）",
+        "ans": "锐角",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "直角",
+          "钝角"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：角的大小与边的长短无关。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "长方形有（　）个直角",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2",
+          "3",
+          "1"
+        ]
+      }
+    ],
+    "time": [
+      {
+        "t": "mc",
+        "q": "分针从 12 走到 6，经过了（　）分",
+        "ans": "30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "12",
+          "60",
+          "6"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "1 时＝（　）分",
+        "ans": "60",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "30",
+          "10",
+          "100"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "分针走一圈，时针走（　）",
+        "ans": "1 大格",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "12 大格",
+          "1 小格",
+          "1 圈"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "钟面上有（　）个大格",
+        "ans": "12",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "60",
+          "24",
+          "10"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "钟面上一共有（　）个小格",
+        "ans": "60",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "30",
+          "100",
+          "12"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "7 时 30 分也可以写作（　）",
+        "ans": "7:30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "3:07",
+          "7:03",
+          "30:7"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "8:45 再过 15 分是（　）",
+        "ans": "9:00",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "9:15",
+          "8:60",
+          "8:30"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "一节课大约 40（　）",
+        "ans": "分",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "秒",
+          "时"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "小学生每天睡觉大约 10（　）",
+        "ans": "时",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "分"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "9 时 10 分开始上课，9 时 50 分下课，这节课几分钟？",
+        "ans": "40",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "分针走 2 大格是几分钟？",
+        "ans": "10",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "分针从 3 走到 9，经过几分钟？",
+        "ans": "30",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "钟面上时针指向 3，分针指向 12，是（　）",
+        "ans": "3 时",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "2 时",
+          "12 时",
+          "3 时 30 分"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：1 时＝60 分。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "从上午 8 时到 10 时，过了（　）小时",
+        "ans": "2",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "3",
+          "1",
+          "8"
+        ]
+      }
+    ],
+    "pair": [
+      {
+        "t": "num",
+        "q": "用 1、2、3 三个数字，能组成多少个十位和个位不同的两位数？",
+        "ans": "6",
+        "ex": "12、13、21、23、31、32，共 6 个。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "用 4、5 两个数字能组成几个十位和个位不同的两位数？",
+        "ans": "2",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "3 个小朋友每两人握一次手，一共握几次？",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "4 个小朋友每两人握一次手，一共握几次？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "有 2 件上衣、3 条裤子，一件上衣配一条裤子，有几种穿法？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "用 0、3、6 能组成几个十位和个位不同的两位数？（0 不能在十位）",
+        "ans": "4",
+        "ex": "30、36、60、63，共 4 个。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "3 支球队比赛，每两队比一场，一共比几场？",
+        "ans": "3",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "上衣 2 件、裤子 3 条，一共有（　）种穿法",
+        "ans": "6",
+        "ex": "2×3＝6",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "5",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：搭配时把同一套算两次，结果会偏多。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      }
+    ],
+    "view": [
+      {
+        "t": "mc",
+        "q": "从不同的位置观察同一个物体，看到的形状（　）",
+        "ans": "可能不同",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "一定相同",
+          "一定不同"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "站在一辆汽车的正前方，能看到汽车的（　）",
+        "ans": "车头",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "车尾",
+          "车顶的全部"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "从正面看一个正方体，看到的是（　）",
+        "ans": "正方形",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "长方形",
+          "圆形",
+          "三角形"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "从上面看一个圆柱形的杯子（直立放），看到的是（　）",
+        "ans": "圆形",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "三角形",
+          "正方形"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：从正面和侧面看一个球，看到的形状都是圆形。",
+        "ans": "√（对）",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "×（错）"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "从上面看圆柱，看到的是（　）",
+        "ans": "圆",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "长方形",
+          "三角形",
+          "正方形"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "判断：从前面看正方体是正方形。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      }
+    ],
+    "mix": [
+      {
+        "t": "num",
+        "q": "一盒有 6 块蛋糕，买了 4 盒，吃掉 5 块，还剩几块？",
+        "ans": "19",
+        "ex": "6×4＝24，24－5＝19（块）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "有 32 个苹果，平均分给 4 个小组，每组再分给 2 人，每人几个？",
+        "ans": "4",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "每张门票 5 元，老师带 7 名同学去公园（老师也买票），一共要多少元？",
+        "ans": "40",
+        "ex": "7＋1＝8 人，5×8＝40（元）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "小明买 3 支铅笔，每支 2 元，又买了 1 本 9 元的本子，一共花几元？",
+        "ans": "15",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "二年级有 4 个班，每班选 6 人参加合唱，再加上 3 位老师，一共几人？",
+        "ans": "27",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "48个乒乓球按每盒6个装箱，每盒卖9元，全部卖完一共几元？",
+        "ans": "72",
+        "ex": "48÷6＝8（盒），9×8＝72（元）。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一张桌子坐 6 人，有 40 人，至少要几张桌子？",
+        "ans": "7",
+        "ex": "6×6＝36 不够，6×7＝42 够，所以要 7 张。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "一条船最多坐 5 人，23 人去划船，至少要几条船？",
+        "ans": "5",
+        "ex": "5×4＝20 不够，5×5＝25 够。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "num",
+        "q": "爸爸今年 36 岁，是小明年龄的 4 倍那么多（小明的 4 倍＝36），小明几岁？",
+        "ans": "9",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "“小红有 12 朵花，送给小东 4 朵后，两人一样多，小东原来有几朵？”答案是（　）",
+        "ans": "4 朵",
+        "ex": "小红送出后剩 8 朵，小东得到 4 朵后也是 8 朵，原来有 4 朵。",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "16 朵",
+          "12 朵",
+          "8 朵"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "解决问题的第一步应该是（　）",
+        "ans": "读懂题目，找出已知条件和问题",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "猜一个数",
+          "直接写答案",
+          "先画图再不检查"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "一个篮子里有 9 个桃，另一个篮子里的桃是它的 3 倍（3 个 9），两个篮子一共几个桃？",
+        "ans": "36",
+        "ex": "9×3＝27，27＋9＝36。",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "应用：每排 6 把椅子，教室有 5 排，一共几把？",
+        "ans": "30",
+        "ex": "6×5＝30",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "11",
+          "35",
+          "25"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "应用：24 支笔平均分给 4 人，每人几支？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "20",
+          "4",
+          "8"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "小明走 3 段路，每段 8 米，一共走几米？",
+        "ans": "24",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：求几个几是多少，用乘法。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：9×4＝（　）",
+        "ans": "36",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "13",
+          "32",
+          "45"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "口算：7＋8＝（　）",
+        "ans": "15",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "17",
+          "14",
+          "16"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "绳子 1 米，剪去 35 厘米，还剩多少厘米？",
+        "ans": "65",
+        "ex": "100－35＝65",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "方向：地图上方一般表示（　）",
+        "ans": "北",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "东",
+          "西",
+          "南"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "分类：铅笔、橡皮、尺子、香蕉——谁是异类？",
+        "ans": "香蕉",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "尺子",
+          "橡皮",
+          "铅笔"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "买 4 本练习本，每本 3 元，付出 20 元，应找回几元？",
+        "ans": "8",
+        "ex": "4×3＝12，20－12＝8",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "应用：一笼有 5 只兔，3 笼一共几只？",
+        "ans": "15",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "20",
+          "8",
+          "10"
+        ]
+      },
+      {
+        "t": "num",
+        "q": "36 个羽毛球，装成每筒 6 个，能装几筒？",
+        "ans": "6",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE"
+      },
+      {
+        "t": "mc",
+        "q": "判断：平均分可以用除法。（　）",
+        "ans": "对",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "错"
+        ]
+      },
+      {
+        "t": "mc",
+        "q": "竖式得数：58＋27＝（　）",
+        "ans": "85",
+        "ex": "",
+        "licenseStatus": "NEED_REWRITE",
+        "ds": [
+          "95",
+          "75",
+          "84"
+        ]
+      }
+    ]
+  }
+}

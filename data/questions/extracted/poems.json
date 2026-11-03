@@ -1,0 +1,82 @@
+{
+  "licenseStatus": "NEED_REWRITE",
+  "note": "Classical poems that the prototype used for fill-in questions. These are curriculum-aligned quotations, not original demo text. Public builds leave this set empty unless you pass --bank extracted.",
+  "authors": [
+    "李白",
+    "王之涣",
+    "柳宗元",
+    "杜甫",
+    "白居易",
+    "孟浩然",
+    "胡令能",
+    "北朝民歌"
+  ],
+  "poems": {
+    "登鹳雀楼": {
+      "author": "王之涣",
+      "dynasty": "唐",
+      "lines": [
+        "白日依山尽",
+        "黄河入海流",
+        "欲穷千里目",
+        "更上一层楼"
+      ],
+      "licenseStatus": "NEED_REWRITE"
+    },
+    "望庐山瀑布": {
+      "author": "李白",
+      "dynasty": "唐",
+      "lines": [
+        "日照香炉生紫烟",
+        "遥看瀑布挂前川",
+        "飞流直下三千尺",
+        "疑是银河落九天"
+      ],
+      "licenseStatus": "NEED_REWRITE"
+    },
+    "江雪": {
+      "author": "柳宗元",
+      "dynasty": "唐",
+      "lines": [
+        "千山鸟飞绝",
+        "万径人踪灭",
+        "孤舟蓑笠翁",
+        "独钓寒江雪"
+      ],
+      "licenseStatus": "NEED_REWRITE"
+    },
+    "夜宿山寺": {
+      "author": "李白",
+      "dynasty": "唐",
+      "lines": [
+        "危楼高百尺",
+        "手可摘星辰",
+        "不敢高声语",
+        "恐惊天上人"
+      ],
+      "licenseStatus": "NEED_REWRITE"
+    },
+    "敕勒歌": {
+      "author": "北朝民歌",
+      "dynasty": "北朝",
+      "lines": [
+        "敕勒川，阴山下",
+        "天似穹庐，笼盖四野",
+        "天苍苍，野茫茫",
+        "风吹草低见牛羊"
+      ],
+      "licenseStatus": "NEED_REWRITE"
+    },
+    "小儿垂钓": {
+      "author": "胡令能",
+      "dynasty": "唐",
+      "lines": [
+        "蓬头稚子学垂纶",
+        "侧坐莓苔草映身",
+        "路人借问遥招手",
+        "怕得鱼惊不应人"
+      ],
+      "licenseStatus": "NEED_REWRITE"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+voxel-scholar / 方块备考 (Block Prep)
+Third-party notices
+
+This project combines original code (MIT, see LICENSE) with third-party
+components that keep their own licenses.
+
+1. three.js r160
+   File: vendor/three/three.r160.min.js
+   License: MIT
+   Copyright © 2010-2023 three.js authors
+   Full text: vendor/three/LICENSE
+   The offline HTML inlines this file. The game does not load three.js from a CDN.
+
+2. Chinese stroke outlines and medians
+   File: data/strokes/hzd.json
+   License: Arphic Public License (1999), NOT MIT.
+   Full text (unaltered): data/strokes/ARPHICPL.TXT
+
+   Provenance:
+   - Fields `s` (SVG stroke outlines) and `m` (medians) use the Make Me a Hanzi
+     graphics coordinate system: a 1024 canvas whose y axis decreases downward.
+     src/quiz/pinyin-stroke.js draws them with the same transform documented by
+     Make Me a Hanzi: scale(1, -1) translate(0, -900).
+   - Make Me a Hanzi graphics.txt is derived from the Arphic PL KaitiM GB and
+     Arphic PL UKai fonts and is distributed under the Arphic Public License.
+     See https://github.com/skishore/makemeahanzi (COPYING, graphics.txt).
+   - The same outline/median pairs are published per character by
+     hanzi-writer-data (also derived from that graphics data). While packaging
+     this repository, the character 火 was compared with hanzi-writer-data
+     2.0.1: stroke 0 and the start of median 0 matched.
+   - This file is not an unmodified copy of graphics.txt. It is a 257-character
+     subset extracted from the pre-release single-file prototype on 2026-11-03.
+     Paths were not redrawn. Fields `n` (stroke names), `ok` (whether a name is
+     safe to show children), and `t` (`both`, `yc`, or `old`) are teaching
+     annotations added by that prototype, not upstream font data.
+
+   Modification notice (Arphic Public License section 2):
+   2026-11-03, voxel-scholar — extracted and restructured the prototype's glyph
+   subset into data/strokes/hzd.json; added this notice and kept ARPHICPL.TXT
+   beside the data. Stroke paths themselves were not edited.
+
+3. Question banks
+   data/questions/demo/ is original demo text written for this open-source
+   release (`licenseStatus: ORIGINAL`) and is part of the MIT-licensed project.
+   data/questions/extracted/ was split out of the pre-release prototype. Every
+   item is tagged `licenseStatus: NEED_REWRITE`. Those stems are not cleared
+   textbook text and are not offered as MIT-licensed original writing. See
+   docs/OPEN_SOURCE.md.
